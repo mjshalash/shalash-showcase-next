@@ -15,7 +15,10 @@ const Navbar = ({ siteName }) => (
     </header>
 
     <header className="boxed" id="header-white">
-      <div className="header-margin">
+      <div className="d-flex flex-row header-margin">
+        <div className="logo">
+          <img className="nav-logo" src="static/img/MalikLogo2.jpg" />
+        </div>
         <div className="logo">
           <a className="ajax-link" href="index.html">
             {siteName}

@@ -19,6 +19,7 @@ const Template = ({ title, className, children }) => (
       <link rel="stylesheet" href="./static/css/reset.css" />
       <link rel="stylesheet" href="./static/css/style.css" />
       <link rel="stylesheet" href="./static/css/style-responsive.css" />
+      <link rel="stylesheet" href="./static/css/ms-navbar.css" />
 
       <script src="../../static/js/jquery.min.js" />
       <script src="./static/js/jquery.easing.min.js" />
