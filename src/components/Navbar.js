@@ -20,7 +20,7 @@ const Navbar = ({ siteName }) => (
           <img className="nav-logo" src="static/img/MalikLogo2.jpg" />
         </div>
         <div className="logo">
-          <a className="ajax-link" href="index.html">
+          <a className="ajax-link" href="/">
             {siteName}
           </a>
         </div>
@@ -49,7 +49,7 @@ const Navbar = ({ siteName }) => (
           </li>
 
           <li>
-            <a className="ajax-link" href="#">
+            <a className="ajax-link" href="/about">
               About me
             </a>
           </li>
