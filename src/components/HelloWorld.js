@@ -13,7 +13,7 @@ const HelloWorld = props => (
     <ul>
       {Deps.map((dep, index) => (
         <li key={index}>
-          <a href={`https://www.npmjs.com/package/${dep}`} target='_blank'>
+          <a href={`https://www.npmjs.com/package/${dep}`} target="_blank">
             {dep}
           </a>
           :{dependencies[dep]}
@@ -24,7 +24,7 @@ const HelloWorld = props => (
     <ul>
       {devDeps.map((devDep, index) => (
         <li key={index}>
-          <a href={`https://www.npmjs.com/package/${devDep}`} target='_blank'>
+          <a href={`https://www.npmjs.com/package/${devDep}`} target="_blank">
             {devDep}
           </a>
           :{devDependencies[devDep]}
