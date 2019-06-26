@@ -9,7 +9,7 @@ const Index = () => (
       <div className="text-intro" id="site-type">
         <h1>Malik Shalash's</h1>
         <h1 className="typewrite">
-          <span>Portfolio</span>
+          <span>Projects</span>
         </h1>
         <p>
           Please feel free to explore my digital portfolio. This site includes
