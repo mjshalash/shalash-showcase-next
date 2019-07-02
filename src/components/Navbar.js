@@ -1,83 +1,82 @@
 import Router from "../Router";
 const router = Object.keys(Router);
 const Navbar = ({ siteName }) => (
-  <span>
-    <header id="fullscreen">
-      <div className="logo d-none" id="full">
-        <a className="ajax-link" href="index.html">
-          {siteName}
-        </a>
-      </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+      Shalash Showcase
+    </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon" />
+    </button>
 
-      <div className="menu-index d-none" id="button">
-        <i className="fa fa-bars" />
-      </div>
-    </header>
-
-    <header className="boxed" id="header-white">
-      <div className="d-flex flex-row header-margin">
-        <div className="logo">
-          <img className="nav-logo" src="static/img/MalikLogo2.jpg" />
-        </div>
-        <div className="logo">
-          <a className="ajax-link" href="index.html">
-            {siteName}
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">
+            Home <span class="sr-only">(current)</span>
           </a>
-        </div>
-        <ul className="header-nav">
-          <li>
-            <a className="ajax-link" href="#">
-              Projects
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            Link
+          </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="navbarDropdown"
+            role="button"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            Dropdown
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">
+              Action
             </a>
-            <ul>
-              <li>
-                <a className="ajax-link" href="#">
-                  Projects
-                </a>
-              </li>
-              <li>
-                <a className="ajax-link" href="#">
-                  Single project
-                </a>
-              </li>
-              <li>
-                <a className="ajax-link" href="#">
-                  Single project fullscreen
-                </a>
-              </li>
-            </ul>
-          </li>
-
-          <li>
-            <a className="ajax-link" href="#">
-              About me
+            <a class="dropdown-item" href="#">
+              Another action
             </a>
-          </li>
-          <li>
-            <a className="ajax-link" href="#">
-              Contact
+            <div class="dropdown-divider" />
+            <a class="dropdown-item" href="#">
+              Something else here
             </a>
-          </li>
-        </ul>
-
-        <ul className="social-icon">
-          <div className="social-index">
-            <li>
-              <a href="https://www.facebook.com/thomsooncom">
-                <i className="fa fa-facebook" />
-              </a>
-            </li>
-            <li>
-              <a href="https://www.behance.net/TomaszMazurczak">
-                <i className="fa fa-behance" />
-              </a>
-            </li>
           </div>
-        </ul>
-      </div>
-    </header>
-
-    <div className="clear" />
-  </span>
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link disabled"
+            href="#"
+            tabindex="-1"
+            aria-disabled="true"
+          >
+            Disabled
+          </a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input
+          class="form-control mr-sm-2"
+          type="search"
+          placeholder="Search"
+          aria-label="Search"
+        />
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+          Search
+        </button>
+      </form>
+    </div>
+  </nav>
 );
 export default Navbar;
