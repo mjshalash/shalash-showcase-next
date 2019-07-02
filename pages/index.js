@@ -1,11 +1,11 @@
-import { Template } from "../src/components/common";
+import Template from "../src/components/common/Template";
 const Index = () => (
   <Template
     title={"Shalash Showcase"}
     className={"container mx-auto mt-5 h-100"}
   >
     {/* Content Section */}
-    <div className="content" id="ajax-content">
+    <div className="content">
       <div className="text-intro" id="site-type">
         <h1>Malik Shalash's</h1>
         <h1 className="typewrite">
@@ -16,6 +16,20 @@ const Index = () => (
           various works in which I had a substantial role in creating.
         </p>
       </div>
+      <ul className="portfolio-grid" id="portfolio-sidebar">
+        <li className="grid-item">
+          <img src="static/img/MalikLogo2.jpg" />
+          <a className="ajax-link" href="#">
+            <div className="grid-hover">
+              <h1>Sample</h1>
+              <p>Project</p>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+    {/* <div className="content" id="ajax-content">
+      
 
       <ul className="portfolio-grid" id="portfolio-sidebar">
         <li
@@ -31,8 +45,8 @@ const Index = () => (
           </a>
         </li>
       </ul>
-    </div>
-    {/* End Content Section */}
+    </div> */}
+    {/* End Content Section */}{" "}
   </Template>
 );
 
