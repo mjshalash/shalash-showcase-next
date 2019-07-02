@@ -1,12 +1,22 @@
 import Router from "../Router";
 const router = Object.keys(Router);
 const Navbar = ({ siteName }) => (
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">
-      Shalash Showcase
+  <nav
+    className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
+    id="sideNav"
+  >
+    <a className="navbar-brand js-scroll-trigger" href="#page-top">
+      <span className="d-block d-lg-none">Malik Shalash</span>
+      <span className="d-none d-lg-block">
+        <img
+          className="img-fluid img-profile rounded-circle mx-auto mb-2"
+          src="../../static/img/MalikLogo2.jpg"
+          alt=""
+        />
+      </span>
     </a>
     <button
-      class="navbar-toggler"
+      className="navbar-toggler"
       type="button"
       data-toggle="collapse"
       data-target="#navbarSupportedContent"
@@ -14,68 +24,41 @@ const Navbar = ({ siteName }) => (
       aria-expanded="false"
       aria-label="Toggle navigation"
     >
-      <span class="navbar-toggler-icon" />
+      <span className="navbar-toggler-icon" />
     </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">
-            Home <span class="sr-only">(current)</span>
+    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul className="navbar-nav">
+        <li className="nav-item">
+          <a className="nav-link js-scroll-trigger css-nav-item" href="#about">
+            About
           </a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">
-            Link
+        <li className="nav-item">
+          <a className="nav-link js-scroll-trigger" href="#experience">
+            Experience
           </a>
         </li>
-        <li class="nav-item dropdown">
-          <a
-            class="nav-link dropdown-toggle"
-            href="#"
-            id="navbarDropdown"
-            role="button"
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
-          >
-            Dropdown
+        <li className="nav-item">
+          <a className="nav-link js-scroll-trigger" href="#awards">
+            Project
           </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">
-              Action
-            </a>
-            <a class="dropdown-item" href="#">
-              Another action
-            </a>
-            <div class="dropdown-divider" />
-            <a class="dropdown-item" href="#">
-              Something else here
-            </a>
-          </div>
         </li>
-        <li class="nav-item">
-          <a
-            class="nav-link disabled"
-            href="#"
-            tabindex="-1"
-            aria-disabled="true"
-          >
-            Disabled
+        <li className="nav-item">
+          <a className="nav-link js-scroll-trigger" href="#education">
+            Education
+          </a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link js-scroll-trigger" href="#skills">
+            Skills
+          </a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link js-scroll-trigger" href="#interests">
+            Interests
           </a>
         </li>
       </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input
-          class="form-control mr-sm-2"
-          type="search"
-          placeholder="Search"
-          aria-label="Search"
-        />
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-          Search
-        </button>
-      </form>
     </div>
   </nav>
 );
