@@ -12,10 +12,24 @@ const Template = ({ title, className, children }) => (
 
       {/* Stylesheets */}
       <link
+        href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700"
+        rel="stylesheet"
+      />
+      <link
+        href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i"
+        rel="stylesheet"
+      />
+      <link
         href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         rel="stylesheet"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
         crossorigin="anonymous"
+      />
+
+      <link
+        rel="stylesheet"
+        type="text/css"
+        href="../../static/css/navbar.css"
       />
 
       {/* Scripts */}
@@ -32,6 +46,11 @@ const Template = ({ title, className, children }) => (
       <script
         src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"
         integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o"
+        crossorigin="anonymous"
+      />
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"
       />
     </Head>
