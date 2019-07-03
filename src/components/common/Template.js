@@ -49,18 +49,17 @@ const Template = ({ title, className, children }) => (
       <link
         rel="stylesheet"
         type="text/css"
-        href="../../static/css/navbar.css"
+        href="../../static/css/bootstrap.min.css"
       />
 
       <link
         rel="stylesheet"
         type="text/css"
-        href="../../static/css/bootstrap.min.css"
+        href="../../static/css/navbar.css"
       />
 
-      <script src="../../static/js/bootstrap.min.js" />
-
-      <script src="../../static/js/bootstrap.bundle.min.js" />
+      {/* <script src="./static/js/bootstrap.min.js" />
+      <script src="../../static/js/bootstrap.bundle.min.js" /> */}
     </Head>
     <Navbar siteName={"Shalash Showcase"} />
     <br />
