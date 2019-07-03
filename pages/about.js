@@ -5,9 +5,7 @@ const About = () => {
       title={"About Page"}
       className={"container-fluid mx-auto mt-5 h-100"}
     >
-      <div>
-        <p>Hello World!</p>
-      </div>
+      <p>About Page!</p>
     </Template>
   );
 };

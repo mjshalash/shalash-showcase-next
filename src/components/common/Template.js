@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Navbar from "../Navbar";
+import NavbarTemp from "../NavbarTemp";
 import Package from "../../../package.json";
 const { name } = Package;
 const Template = ({ title, className, children }) => (
@@ -61,9 +62,14 @@ const Template = ({ title, className, children }) => (
       {/* <script src="./static/js/bootstrap.min.js" />
       <script src="../../static/js/bootstrap.bundle.min.js" /> */}
     </Head>
-    <Navbar siteName={"Shalash Showcase"} />
+
+    {/* Navbar (temporary right now until I can get vertcal navbar 
+    fit into page correctly without covering content) */}
+    <NavbarTemp siteName={"Shalash Showcase"} />
     <br />
-    <div>{children}</div>
+
+    {/* Page Content */}
+    <div className={className}>{children}</div>
   </span>
 );
 export default Template;

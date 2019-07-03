@@ -5,7 +5,7 @@ const Index = () => {
       title={"Shalash Showcase"}
       className={"container-fluid mx-auto mt-5 h-100"}
     >
-      <div>Hello World!</div>
+      <div>Home Page</div>
     </Template>
   );
 };

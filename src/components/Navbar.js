@@ -32,20 +32,20 @@ const Navbar = () => (
 
     {/* Navbar Menu Items (mapped from Router)  */}
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
-      {/* <ul className="navbar-nav">
+      <ul className="navbar-nav">
         {router.map((route, index) => (
           <li className="nav-item" key={index}>
             <a
               className="nav-link js-scroll-trigger css-nav-item"
-              href="#about"
+              href={Router[route]}
             >
               {route}
             </a>
           </li>
         ))}
-      </ul> */}
+      </ul>
 
-      <ul className="navbar-nav">
+      {/* <ul className="navbar-nav">
         <li className="nav-item">
           <a className="nav-link js-scroll-trigger css-nav-item" href="#about">
             About
@@ -76,7 +76,7 @@ const Navbar = () => (
             Interests
           </a>
         </li>
-      </ul>
+      </ul> */}
     </div>
   </nav>
 );
