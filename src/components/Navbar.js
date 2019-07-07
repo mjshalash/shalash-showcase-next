@@ -44,39 +44,6 @@ const Navbar = () => (
           </li>
         ))}
       </ul>
-
-      {/* <ul className="navbar-nav">
-        <li className="nav-item">
-          <a className="nav-link js-scroll-trigger css-nav-item" href="#about">
-            About
-          </a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link js-scroll-trigger" href="#experience">
-            Experience
-          </a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link js-scroll-trigger" href="#awards">
-            Project
-          </a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link js-scroll-trigger" href="#education">
-            Education
-          </a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link js-scroll-trigger" href="#skills">
-            Skills
-          </a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link js-scroll-trigger" href="#interests">
-            Interests
-          </a>
-        </li>
-      </ul> */}
     </div>
   </nav>
 );

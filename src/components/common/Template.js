@@ -50,7 +50,13 @@ const Template = ({ title, className, children }) => (
       <link
         rel="stylesheet"
         type="text/css"
-        href="../../static/css/bootstrap.min.css"
+        href="../../static/css/index.css"
+      />
+
+      <link
+        rel="stylesheet"
+        type="text/css"
+        href="../../static/css/bootstrap/bootstrap.min.css"
       />
 
       <link
@@ -62,11 +68,6 @@ const Template = ({ title, className, children }) => (
       {/* <script src="./static/js/bootstrap.min.js" />
       <script src="../../static/js/bootstrap.bundle.min.js" /> */}
     </Head>
-
-    {/* Navbar (temporary right now until I can get vertcal navbar 
-    fit into page correctly without covering content) */}
-    <NavbarTemp siteName={"Shalash Showcase"} />
-    <br />
 
     {/* Page Content */}
     <div className={className}>{children}</div>
