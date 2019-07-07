@@ -1,10 +1,11 @@
 import Router from "../Router";
 const router = Object.keys(Router);
-const Navbar = ({ siteName }) => (
+const Navbar = () => (
   <nav
     className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
     id="sideNav"
   >
+    {/* Logo/Picture */}
     <a className="navbar-brand js-scroll-trigger" href="#page-top">
       <span className="d-block d-lg-none">Malik Shalash</span>
       <span className="d-none d-lg-block">
@@ -15,6 +16,8 @@ const Navbar = ({ siteName }) => (
         />
       </span>
     </a>
+
+    {/* Mobile Navbar Toggle */}
     <button
       className="navbar-toggler"
       type="button"
@@ -26,38 +29,20 @@ const Navbar = ({ siteName }) => (
     >
       <span className="navbar-toggler-icon" />
     </button>
+
+    {/* Navbar Menu Items (mapped from Router)  */}
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav">
-        <li className="nav-item">
-          <a className="nav-link js-scroll-trigger css-nav-item" href="#about">
-            About
-          </a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link js-scroll-trigger" href="#experience">
-            Experience
-          </a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link js-scroll-trigger" href="#awards">
-            Project
-          </a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link js-scroll-trigger" href="#education">
-            Education
-          </a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link js-scroll-trigger" href="#skills">
-            Skills
-          </a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link js-scroll-trigger" href="#interests">
-            Interests
-          </a>
-        </li>
+        {router.map((route, index) => (
+          <li className="nav-item" key={index}>
+            <a
+              className="nav-link js-scroll-trigger css-nav-item"
+              href={Router[route]}
+            >
+              {route}
+            </a>
+          </li>
+        ))}
       </ul>
     </div>
   </nav>
