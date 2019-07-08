@@ -31,8 +31,8 @@ const Index = () => {
                   the overall value proposition. */}
                   I have had a passion for programming since my parent's bought
                   me my first computer. Technology transforms our environment
-                  every single day. Due to this, computer science, and therefore
-                  programming, is the language of the future.
+                  every single day. Due to this, programming is the language of
+                  the future.
                   <br />
                   <br />
                   Let me help you write yours.

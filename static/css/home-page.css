@@ -59,7 +59,7 @@ p.lead {
 }
 
 .social-icons a:hover {
-  background-color: #bd5d38;
+  background-color: #ad0000;
 }
 
 .dev-icons {
@@ -67,5 +67,5 @@ p.lead {
 }
 
 .dev-icons .list-inline-item i:hover {
-  color: #bd5d38;
+  color: #ad0000;
 }

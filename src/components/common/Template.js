@@ -70,7 +70,7 @@ const Template = ({ title, className, children }) => (
       <link
         rel="stylesheet"
         type="text/css"
-        href="../../static/css/about-page.css"
+        href="../../static/css/home-page.css"
       />
 
       <link
