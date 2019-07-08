@@ -34,11 +34,8 @@ const Navbar = () => (
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav">
         {router.map((route, index) => (
-          <li className="nav-item" key={index}>
-            <a
-              className="nav-link js-scroll-trigger css-nav-item"
-              href={Router[route]}
-            >
+          <li className="css-nav-item" key={index}>
+            <a href={Router[route]} className="css-nav-link">
               {route}
             </a>
           </li>

@@ -46,20 +46,19 @@
     flex-direction: column;
     width: 100%;
   }
-  #sideNav .navbar-collapse .navbar-nav .nav-item {
+
+  /* Nav Items */
+  #sideNav .navbar-collapse .navbar-nav .css-nav-item {
     display: block;
+    color: #000;
   }
-  #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+  #sideNav .navbar-collapse .navbar-nav .css-nav-item .css-nav-link {
     display: block;
+    color: #000;
   }
 
-  a {
-    color: #ad0000;
-  }
-
-  a:active,
-  a:focus,
-  a:hover {
+  #sideNav .navbar-collapse .navbar-nav .css-nav-item .css-nav-link:hover {
+    text-decoration: none;
     color: #fff;
   }
 }

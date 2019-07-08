@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Navbar from "../Navbar";
-import NavbarTemp from "../NavbarTemp";
 import Package from "../../../package.json";
 const { name } = Package;
 const Template = ({ title, className, children }) => (
@@ -54,6 +53,12 @@ const Template = ({ title, className, children }) => (
         href="../../static/css/bootstrap/bootstrap.min.css"
       />
 
+      <link
+        rel="stylesheet"
+        type="text/css"
+        href="../../static/css/fontawesome-free/css/all.min.css"
+      />
+
       {/* My Stylesheets */}
       <link
         rel="stylesheet"
@@ -71,12 +76,6 @@ const Template = ({ title, className, children }) => (
         rel="stylesheet"
         type="text/css"
         href="../../static/css/home-page.css"
-      />
-
-      <link
-        rel="stylesheet"
-        type="text/css"
-        href="../../static/css/fontawesome-free/css/all.min.css"
       />
 
       {/* Scripts */}
