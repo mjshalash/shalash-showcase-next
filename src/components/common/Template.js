@@ -47,6 +47,14 @@ const Template = ({ title, className, children }) => (
       /> */}
 
       {/* Local/Offline References */}
+      {/* Bootstrap */}
+      <link
+        rel="stylesheet"
+        type="text/css"
+        href="../../static/css/bootstrap/bootstrap.min.css"
+      />
+
+      {/* My Stylesheets */}
       <link
         rel="stylesheet"
         type="text/css"
@@ -56,15 +64,22 @@ const Template = ({ title, className, children }) => (
       <link
         rel="stylesheet"
         type="text/css"
-        href="../../static/css/bootstrap/bootstrap.min.css"
+        href="../../static/css/navbar.css"
       />
 
       <link
         rel="stylesheet"
         type="text/css"
-        href="../../static/css/navbar.css"
+        href="../../static/css/home-page.css"
       />
 
+      <link
+        rel="stylesheet"
+        type="text/css"
+        href="../../static/css/fontawesome-free/css/all.min.css"
+      />
+
+      {/* Scripts */}
       {/* <script src="./static/js/bootstrap.min.js" />
       <script src="../../static/js/bootstrap.bundle.min.js" /> */}
     </Head>
