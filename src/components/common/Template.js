@@ -77,6 +77,12 @@ const Template = ({ title, className, children }) => (
         href="../../static/css/home-page.css"
       />
 
+      <link
+        rel="stylesheet"
+        type="text/css"
+        href="../../static/css/about-page.css"
+      />
+
       {/* Scripts */}
       {/* <script src="./static/js/bootstrap.min.js" />
       <script src="../../static/js/bootstrap.bundle.min.js" /> */}

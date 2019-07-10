@@ -34,8 +34,8 @@ const Navbar = () => (
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav">
         {router.map((route, index) => (
-          <li className="css-nav-item" key={index}>
-            <a href={Router[route]} className="css-nav-link">
+          <li className="nav-item css-nav-item" key={index}>
+            <a href={Router[route]} className="nav-link css-nav-link">
               {route}
             </a>
           </li>

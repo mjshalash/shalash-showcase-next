@@ -5,9 +5,11 @@ const Index = () => {
   return (
     <Template title={"Shalash Showcase"} className={"container-fluid"}>
       <div className="d-flex flex-row">
+        {/* Navigation Sidebar */}
         <div className="d-flex flex-column mr-3">
           <Navbar siteName={"Shalash Showcase"} />
         </div>
+
         <div className="d-flex flex-column">
           <div className="d-flex flex-row">
             <section

@@ -1,7 +1,7 @@
 import Template from "../src/components/common/Template";
 import Navbar from "../src/components/Navbar";
 
-const Index = () => {
+const Projects = () => {
   return (
     <Template title={"Shalash Showcase"} className={"container-fluid"}>
       <div className="d-flex flex-row">
@@ -20,4 +20,4 @@ const Index = () => {
     </Template>
   );
 };
-export default Index;
+export default Projects;
