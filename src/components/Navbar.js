@@ -1,8 +1,8 @@
-import Router from "../Router";
+import Router from "../Router.js";
 const router = Object.keys(Router);
 const Navbar = () => (
   <nav
-    className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
+    className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" //navbar-expand-lg navbar-dark bg-primary fixed-top"
     id="sideNav"
   >
     {/* Logo/Picture */}

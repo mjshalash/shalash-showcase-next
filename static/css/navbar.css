@@ -48,16 +48,12 @@
   }
 
   /* Nav Items */
-  #sideNav .navbar-collapse .navbar-nav .css-nav-item {
-    display: block;
-    color: #000;
-  }
-  #sideNav .navbar-collapse .navbar-nav .css-nav-item .css-nav-link {
+  #navbarSupportedContent .navbar-nav .css-nav-item .css-nav-link {
     display: block;
     color: #000;
   }
 
-  #sideNav .navbar-collapse .navbar-nav .css-nav-item .css-nav-link:hover {
+  #navbarSupportedContent .navbar-nav .css-nav-item .css-nav-link:hover {
     text-decoration: none;
     color: #fff;
   }
@@ -69,8 +65,4 @@
 
 .text-primary {
   color: #ad0000 !important;
-}
-
-.fixed-top {
-  z-index: -1;
 }
