@@ -1,0 +1,12 @@
+/* Profile Image */
+.css-about-profile-img {
+  min-width: 100px;
+  min-height: 100px;
+  max-height: 200px;
+  float: left;
+}
+
+/* Content */
+.css-about-first-col {
+  text-align: left;
+}

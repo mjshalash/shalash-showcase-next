@@ -46,20 +46,15 @@
     flex-direction: column;
     width: 100%;
   }
-  #sideNav .navbar-collapse .navbar-nav .nav-item {
+
+  /* Nav Items */
+  #navbarSupportedContent .navbar-nav .css-nav-item .css-nav-link {
     display: block;
-  }
-  #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
-    display: block;
+    color: #000;
   }
 
-  a {
-    color: #ad0000;
-  }
-
-  a:active,
-  a:focus,
-  a:hover {
+  #navbarSupportedContent .navbar-nav .css-nav-item .css-nav-link:hover {
+    text-decoration: none;
     color: #fff;
   }
 }
@@ -70,8 +65,4 @@
 
 .text-primary {
   color: #ad0000 !important;
-}
-
-.fixed-top {
-  z-index: -1;
 }

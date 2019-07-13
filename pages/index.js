@@ -5,9 +5,11 @@ const Index = () => {
   return (
     <Template title={"Shalash Showcase"} className={"container-fluid"}>
       <div className="d-flex flex-row">
+        {/* Navigation Sidebar */}
         <div className="d-flex flex-column mr-3">
           <Navbar siteName={"Shalash Showcase"} />
         </div>
+
         <div className="d-flex flex-column">
           <div className="d-flex flex-row">
             <section
@@ -25,10 +27,6 @@ const Index = () => {
                   ·<a href="mailto:name@email.com">name@email.com</a>
                 </div>
                 <p className="lead mb-5">
-                  {/* I am experienced in leveraging agile frameworks to provide a
-                  robust synopsis for high level overviews. Iterative approaches
-                  to corporate strategy foster collaborative thinking to further
-                  the overall value proposition. */}
                   I have had a passion for programming since my parent's bought
                   me my first computer. Technology transforms our environment
                   every single day. Due to this, programming is the language of

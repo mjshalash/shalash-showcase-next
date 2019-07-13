@@ -1,8 +1,8 @@
-import Router from "../Router";
+import Router from "../Router.js";
 const router = Object.keys(Router);
 const Navbar = () => (
   <nav
-    className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
+    className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" //navbar-expand-lg navbar-dark bg-primary fixed-top"
     id="sideNav"
   >
     {/* Logo/Picture */}
@@ -34,11 +34,8 @@ const Navbar = () => (
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav">
         {router.map((route, index) => (
-          <li className="nav-item" key={index}>
-            <a
-              className="nav-link js-scroll-trigger css-nav-item"
-              href={Router[route]}
-            >
+          <li className="nav-item css-nav-item" key={index}>
+            <a href={Router[route]} className="nav-link css-nav-link">
               {route}
             </a>
           </li>
