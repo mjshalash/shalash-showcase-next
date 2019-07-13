@@ -1,5 +1,7 @@
+//Component Imports
 import Template from "../src/components/common/Template";
 import Navbar from "../src/components/Navbar";
+import Project from "../src/components/project-page/Project";
 
 const Projects = () => {
   return (
@@ -11,9 +13,29 @@ const Projects = () => {
         </div>
 
         {/* Project Gallery */}
-        <div className="d-flex flex-column">
-          <div className="d-flex flex-row">
-            <h1>Showcase</h1>
+        <div className="d-flex flex-column w-100">
+          {/* Grid Heading */}
+          <div className="d-flex flex-row justify-content-center pt-3">
+            <h4>Projects</h4>
+          </div>
+
+          {/* Project Gallery */}
+          <div class="d-flex flex-column align-items-center">
+            <div class="d-flex flex-row mb-4">
+              <Project />
+              <Project />
+              <Project />
+            </div>
+            <div class="d-flex flex-row mb-4">
+              <Project />
+              <Project />
+              <Project />
+            </div>
+            <div class="d-flex flex-row mb-4">
+              <Project />
+              <Project />
+              <Project />
+            </div>
           </div>
         </div>
       </div>
