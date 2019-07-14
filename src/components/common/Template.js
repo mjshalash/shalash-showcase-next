@@ -99,6 +99,12 @@ const Template = ({ title, className, children }) => (
       <script src="../../static/js/bootstrap.bundle.min.js" /> */}
     </Head>
 
+    {/* Navbar */}
+    {/* Navigation Sidebar */}
+    <div className="d-flex flex-column">
+      <Navbar siteName={"Shalash Showcase"} />
+    </div>
+
     {/* Page Content */}
     <div className={className}>{children}</div>
   </span>

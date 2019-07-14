@@ -44,6 +44,6 @@ h3 {
 }
 
 /* Sets Margin so sidenav does not overlay page content */
-.css-page-content {
+.css-page-main-content {
   margin-left: 17rem;
 }
