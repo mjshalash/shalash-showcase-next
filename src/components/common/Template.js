@@ -91,7 +91,7 @@ const Template = ({ title, className, children }) => (
       <link
         rel="stylesheet"
         type="text/css"
-        href="../../static/css/project-page.css"
+        href="../../static/css/components/Project.css"
       />
 
       {/* Scripts */}
