@@ -59,28 +59,39 @@ const Template = ({ title, className, children }) => (
       />
 
       {/* My Stylesheets */}
+      {/* Index */}
       <link
         rel="stylesheet"
         type="text/css"
         href="../../static/css/index.css"
       />
 
+      {/* Navbar */}
       <link
         rel="stylesheet"
         type="text/css"
         href="../../static/css/navbar.css"
       />
 
+      {/* Home Page */}
       <link
         rel="stylesheet"
         type="text/css"
         href="../../static/css/home-page.css"
       />
 
+      {/* About Page */}
       <link
         rel="stylesheet"
         type="text/css"
         href="../../static/css/about-page.css"
+      />
+
+      {/* Project Gallery Page */}
+      <link
+        rel="stylesheet"
+        type="text/css"
+        href="../../static/css/components/Project.css"
       />
 
       {/* Scripts */}
