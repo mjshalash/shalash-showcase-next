@@ -42,3 +42,8 @@ h2 {
 h3 {
   font-size: 2rem;
 }
+
+/* Sets Margin so sidenav does not overlay page content */
+.css-page-content {
+  margin-left: 17rem;
+}
