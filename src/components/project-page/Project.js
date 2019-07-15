@@ -4,7 +4,7 @@ const Project = ({ link, img, title }) => {
       <a className="css-link-container" href={link}>
         <img className="img-fluid css-proj-image" src={img} />
         <div className="css-proj-overlay">
-          <div class="css-proj-title">{title}</div>
+          <div className="css-proj-title">{title}</div>
         </div>
       </a>
     </div>
