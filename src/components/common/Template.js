@@ -87,7 +87,15 @@ const Template = ({ title, className, children }) => (
         href="../../static/css/about-page.css"
       />
 
-      {/* Project Gallery Page */}
+      {/* Education History Page */}
+      <link
+        rel="stylesheet"
+        type="text/css"
+        href="../../static/css/educationhist-page.css"
+      />
+
+      {/* Components */}
+      {/* Project */}
       <link
         rel="stylesheet"
         type="text/css"

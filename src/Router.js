@@ -2,7 +2,7 @@ const Router = {
   Home: "/",
   About: "/about",
   Projects: "/projects",
-  Education: "/education",
+  Education: "/educationhist",
   Skills: "/skills"
 };
 export default Router;
