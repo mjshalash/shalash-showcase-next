@@ -47,3 +47,13 @@ h3 {
 .css-page-main-content {
   margin-left: 17rem;
 }
+
+.subheading a {
+  text-decoration: none;
+  color: #000;
+}
+
+.subheading a:hover {
+  text-decoration: none;
+  color: #000;
+}

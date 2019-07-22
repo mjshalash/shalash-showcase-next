@@ -1,5 +1,4 @@
 import Template from "../src/components/common/Template";
-import Navbar from "../src/components/Navbar";
 
 const Index = () => {
   return (
@@ -20,17 +19,18 @@ const Index = () => {
                 <span className="text-primary">Shalash</span>
               </h1>
               <div className="subheading mb-5">
-                3542 Berry Street · Cheyenne Wells, CO 80810 · (317) 585-8468 ·
-                <a href="mailto:name@email.com">name@email.com</a>
+                <a className="css-email-link" href="mailto:name@email.com">
+                  mjshalash@rci4u.com
+                </a>
               </div>
               <p className="lead mb-5">
                 I have had a passion for programming since my parent's bought me
                 my first computer. Technology transforms our environment every
-                single day. Due to this, programming is the language of the
+                single day. Because of this, programming is the language of the
                 future.
                 <br />
                 <br />
-                Let me help you write yours.
+                <b>Let me help you write yours.</b>
               </p>
 
               {/* Other Platform Icons */}
