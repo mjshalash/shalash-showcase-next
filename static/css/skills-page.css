@@ -1,3 +1,46 @@
 .css-skill-icon {
-    font-size: 50px;
+  font-size: 50px;
+  margin-right: 5px;
+}
+
+/* Skill Columns */
+.css-web-col {
+  border-right: 0.05rem solid;
+}
+
+.css-db-col {
+  border-right: 0.05rem solid;
+}
+
+/* Skill Icons */
+.fa-html5 {
+  color: #e54c21;
+}
+
+.fa-js {
+  color: #f7e018;
+}
+
+.fa-node {
+  color: #68a063;
+}
+
+.fa-react {
+  color: #61dbfb;
+}
+
+.fa-css3-alt {
+  color: #1971b8;
+}
+
+.fa-database {
+  color: #1971b8;
+}
+
+.fa-database.css-mongo {
+  color: #14aa51;
+}
+
+.fa-git {
+  color: #362602;
 }
