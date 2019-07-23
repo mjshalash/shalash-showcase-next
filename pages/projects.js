@@ -20,15 +20,18 @@ const Projects = () => {
           {/* Row 1 */}
           <div className="d-flex flex-row mb-4">
             <Project
-              img={"../static/img/Project-Gallery/placeholder-image.png"}
+              mainImg={"../static/img/Project-Gallery/placeholder-image.png"}
+              imgSet={"../static/img/Project-Gallery/placeholder-image.png"}
               title={"Project 1"}
             />
             <Project
-              img={"../static/img/Project-Gallery/placeholder-image.png"}
+              mainImg={"../static/img/Project-Gallery/placeholder-image.png"}
+              imgSet={"../static/img/Project-Gallery/placeholder-image.png"}
               title={"Project 2"}
             />
             <Project
-              img={"../static/img/Project-Gallery/placeholder-image.png"}
+              mainImg={"../static/img/Project-Gallery/placeholder-image.png"}
+              imgSet={"../static/img/Project-Gallery/placeholder-image.png"}
               title={"Project 3"}
             />
           </div>
@@ -36,15 +39,18 @@ const Projects = () => {
           {/* Row 2 */}
           <div className="d-flex flex-row mb-4">
             <Project
-              img={"../static/img/Project-Gallery/placeholder-image.png"}
+              mainImg={"../static/img/Project-Gallery/placeholder-image.png"}
+              imgSet={"../static/img/Project-Gallery/placeholder-image.png"}
               title={"Project 4"}
             />
             <Project
-              img={"../static/img/Project-Gallery/placeholder-image.png"}
+              mainImg={"../static/img/Project-Gallery/placeholder-image.png"}
+              imgSet={"../static/img/Project-Gallery/placeholder-image.png"}
               title={"Project 5"}
             />
             <Project
-              img={"../static/img/Project-Gallery/placeholder-image.png"}
+              mainImg={"../static/img/Project-Gallery/placeholder-image.png"}
+              imgSet={"../static/img/Project-Gallery/placeholder-image.png"}
               title={"Project 6"}
             />
           </div>
@@ -52,15 +58,18 @@ const Projects = () => {
           {/* Row 3 */}
           <div className="d-flex flex-row mb-4">
             <Project
-              img={"../static/img/Project-Gallery/placeholder-image.png"}
+              mainImg={"../static/img/Project-Gallery/placeholder-image.png"}
+              imgSet={"../static/img/Project-Gallery/placeholder-image.png"}
               title={"Project 7"}
             />
             <Project
-              img={"../static/img/Project-Gallery/placeholder-image.png"}
+              mainImg={"../static/img/Project-Gallery/placeholder-image.png"}
+              imgSet={"../static/img/Project-Gallery/placeholder-image.png"}
               title={"Project 8"}
             />
             <Project
-              img={"../static/img/Project-Gallery/placeholder-image.png"}
+              mainImg={"../static/img/Project-Gallery/placeholder-image.png"}
+              imgSet={"../static/img/Project-Gallery/placeholder-image.png"}
               title={"Project 9"}
             />
           </div>
