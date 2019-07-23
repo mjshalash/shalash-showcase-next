@@ -33,13 +33,31 @@ const Navbar = () => (
     {/* Navbar Menu Items (mapped from Router)  */}
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav">
-        {router.map((route, index) => (
-          <li className="nav-item css-nav-item" key={index}>
-            <a href={Router[route]} className="nav-link css-nav-link">
-              {route}
-            </a>
-          </li>
-        ))}
+        <li className="nav-item">
+          <a className="nav-link js-scroll-trigger" href="#intro">
+            Home
+          </a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link js-scroll-trigger" href="#about">
+            About
+          </a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link js-scroll-trigger" href="#projects">
+            Projects
+          </a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link js-scroll-trigger" href="#education">
+            Education
+          </a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link js-scroll-trigger" href="#skills">
+            Skills
+          </a>
+        </li>
       </ul>
     </div>
   </nav>

@@ -30,7 +30,14 @@ const Template = ({ title, className, children }) => (
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
         crossOrigin="anonymous"
       />
-      {/* <script src="../../../node_modules/jquery/dist/jquery.min.js" /> */}
+      <script
+        src="http://code.jquery.com/ui/1.12.0/jquery-ui.js"
+        integrity="sha256-0YPKAwZP7Mp3ALMRVB2i8GXeEndvCq3eSl/WsAl1Ryk="
+        crossOrigin="anonymous"
+      />
+
+      {/* Custom scripts for scrolling */}
+      <script src="../../static/js/resume.js" />
 
       <script
         src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
@@ -43,14 +50,6 @@ const Template = ({ title, className, children }) => (
         integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o"
         crossOrigin="anonymous"
       />
-
-      {/* Local/Offline References */}
-      {/* Bootstrap */}
-      {/* <link
-        rel="stylesheet"
-        type="text/css"
-        href="../../static/css/bootstrap/bootstrap.min.css"
-      /> */}
 
       <link
         rel="stylesheet"
@@ -108,13 +107,8 @@ const Template = ({ title, className, children }) => (
         type="text/css"
         href="../../static/css/components/Project.css"
       />
-
-      {/* Scripts */}
-      {/* <script src="./static/js/bootstrap.min.js" />
-      <script src="../../static/js/bootstrap.bundle.min.js" /> */}
     </Head>
 
-    {/* Navbar */}
     {/* Navigation Sidebar */}
     <div className="d-flex flex-column">
       <Navbar siteName={"Shalash Showcase"} />
