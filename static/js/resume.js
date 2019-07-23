@@ -15,12 +15,17 @@ $(document).ready(function() {
         {
           scrollTop: $(hash).offset().top
         },
-        800,
+        600,
         function() {
           // Add hash (#) to URL when done scrolling (default click behavior)
           window.location.hash = hash;
         }
       );
     } // End if
+  });
+
+  // Activate scrollspy to add active class to navbar items on scroll
+  $("body").scrollspy({
+    target: "#sideNav"
   });
 });
