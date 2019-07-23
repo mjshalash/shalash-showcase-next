@@ -76,28 +76,28 @@ const Template = ({ title, className, children }) => (
       <link
         rel="stylesheet"
         type="text/css"
-        href="../../static/css/home-page.css"
+        href="../../static/css/home-section.css"
       />
 
       {/* About Page */}
       <link
         rel="stylesheet"
         type="text/css"
-        href="../../static/css/about-page.css"
+        href="../../static/css/about-section.css"
       />
 
       {/* Education History Page */}
       <link
         rel="stylesheet"
         type="text/css"
-        href="../../static/css/educationhist-page.css"
+        href="../../static/css/educationhist-section.css"
       />
 
       {/* Skills Page */}
       <link
         rel="stylesheet"
         type="text/css"
-        href="../../static/css/skills-page.css"
+        href="../../static/css/skills-section.css"
       />
 
       {/* Components */}
