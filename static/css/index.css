@@ -52,6 +52,10 @@ a {
   color: #343a40;
 }
 
+.nav-item a {
+  font-size: 1.5rem;
+}
+
 /* Resume Section */
 section.resume-section {
   padding-top: 5rem !important;
@@ -95,7 +99,7 @@ p.lead {
 
 /* Sets Margin so sidenav does not overlay page content */
 .css-page-main-content {
-  margin-left: 17rem;
+  margin-left: 30rem;
 }
 
 .subheading a {

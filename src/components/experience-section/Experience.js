@@ -11,13 +11,16 @@ const Experience = ({ companyLogo, company, location, position, date }) => {
         <div className="d-flex flex-row">
           {/* Company Name and Span*/}
           <h3 className="mr-5">{company}</h3>
-          <p className="ml-5 css-ed-date">{date}</p>
         </div>
 
         <div className="d-flex flex-row">
           {/* Position */}
           <h5>{position}</h5>
         </div>
+      </div>
+
+      <div className="d-flex flex-column ml-auto">
+        <p className="css-ed-date">{date}</p>
       </div>
     </div>
   );
