@@ -2,6 +2,7 @@ import Template from "../src/components/common/Template";
 
 import Project from "../src/components/project-page/Project";
 import Education from "../src/components/education-page/Education";
+import Experience from "../src/components/experience-section/Experience";
 import Skill from "../src/components/skills-page/Skill";
 
 const Index = () => {
@@ -127,15 +128,33 @@ const Index = () => {
                 {/* Row 1 */}
                 <div className="d-flex flex-row mb-4">
                   <Project
-                    img={"../static/img/Project-Gallery/placeholder-image.png"}
+                    mainImg={
+                      "../static/img/Project-Gallery/placeholder-image.png"
+                    }
+                    imgSet={[
+                      "../static/img/Project-Gallery/placeholder-image.png",
+                      "../static/img/moi.png"
+                    ]}
                     title={"Project 1"}
                   />
                   <Project
-                    img={"../static/img/Project-Gallery/placeholder-image.png"}
+                    mainImg={
+                      "../static/img/Project-Gallery/placeholder-image.png"
+                    }
+                    imgSet={[
+                      "../static/img/Project-Gallery/placeholder-image.png",
+                      "../static/img/Project-Gallery/placeholder-image.png"
+                    ]}
                     title={"Project 2"}
                   />
                   <Project
-                    img={"../static/img/Project-Gallery/placeholder-image.png"}
+                    mainImg={
+                      "../static/img/Project-Gallery/placeholder-image.png"
+                    }
+                    imgSet={[
+                      "../static/img/Project-Gallery/placeholder-image.png",
+                      "../static/img/Project-Gallery/placeholder-image.png"
+                    ]}
                     title={"Project 3"}
                   />
                 </div>
@@ -143,15 +162,33 @@ const Index = () => {
                 {/* Row 2 */}
                 <div className="d-flex flex-row mb-4">
                   <Project
-                    img={"../static/img/Project-Gallery/placeholder-image.png"}
+                    mainImg={
+                      "../static/img/Project-Gallery/placeholder-image.png"
+                    }
+                    imgSet={[
+                      "../static/img/Project-Gallery/placeholder-image.png",
+                      "../static/img/Project-Gallery/placeholder-image.png"
+                    ]}
                     title={"Project 4"}
                   />
                   <Project
-                    img={"../static/img/Project-Gallery/placeholder-image.png"}
+                    mainImg={
+                      "../static/img/Project-Gallery/placeholder-image.png"
+                    }
+                    imgSet={[
+                      "../static/img/Project-Gallery/placeholder-image.png",
+                      "../static/img/Project-Gallery/placeholder-image.png"
+                    ]}
                     title={"Project 5"}
                   />
                   <Project
-                    img={"../static/img/Project-Gallery/placeholder-image.png"}
+                    mainImg={
+                      "../static/img/Project-Gallery/placeholder-image.png"
+                    }
+                    imgSet={[
+                      "../static/img/Project-Gallery/placeholder-image.png",
+                      "../static/img/Project-Gallery/placeholder-image.png"
+                    ]}
                     title={"Project 6"}
                   />
                 </div>
@@ -159,15 +196,33 @@ const Index = () => {
                 {/* Row 3 */}
                 <div className="d-flex flex-row mb-4">
                   <Project
-                    img={"../static/img/Project-Gallery/placeholder-image.png"}
+                    mainImg={
+                      "../static/img/Project-Gallery/placeholder-image.png"
+                    }
+                    imgSet={[
+                      "../static/img/Project-Gallery/placeholder-image.png",
+                      "../static/img/Project-Gallery/placeholder-image.png"
+                    ]}
                     title={"Project 7"}
                   />
                   <Project
-                    img={"../static/img/Project-Gallery/placeholder-image.png"}
+                    mainImg={
+                      "../static/img/Project-Gallery/placeholder-image.png"
+                    }
+                    imgSet={[
+                      "../static/img/Project-Gallery/placeholder-image.png",
+                      "../static/img/Project-Gallery/placeholder-image.png"
+                    ]}
                     title={"Project 8"}
                   />
                   <Project
-                    img={"../static/img/Project-Gallery/placeholder-image.png"}
+                    mainImg={
+                      "../static/img/Project-Gallery/placeholder-image.png"
+                    }
+                    imgSet={[
+                      "../static/img/Project-Gallery/placeholder-image.png",
+                      "../static/img/Project-Gallery/placeholder-image.png"
+                    ]}
                     title={"Project 9"}
                   />
                 </div>
@@ -219,6 +274,41 @@ const Index = () => {
                 degree={"Project Lead the Way Engineering Track"}
                 gpa={"4.0"}
                 date={"August 2011 - May 2015"}
+              />
+            </div>
+          </section>
+        </div>
+
+        {/* Experience */}
+        <div className="d-flex flex-row">
+          <section
+            className="resume-section p-3 p-lg-5 d-flex align-items-center"
+            id="experience"
+          >
+            <div className="d-flex flex-column css-education-items-col">
+              {/* Heading */}
+              <div className="d-flex flex-row">
+                <h2>Experience</h2>
+              </div>
+
+              {/* Integrative Design and Development */}
+              <Experience
+                companyLogo={
+                  "../../static/img/Education/University_of_Louisville.png"
+                }
+                company={"UofL Integrative Development and Design Team"}
+                location={"Louisville, Kentucky"}
+                position={"Senior Software Developer"}
+                date={"December 2018 - Present"}
+              />
+
+              {/* Solstice */}
+              <Experience
+                companyLogo={"../../static/img/Experience/Solstice/logo.gif"}
+                company={"Solstice Incorporated"}
+                location={"Louisville, Kentucky"}
+                position={"Junior Intern Software Developer"}
+                date={"August 2016 - August 2018"}
               />
             </div>
           </section>

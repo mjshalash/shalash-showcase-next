@@ -44,3 +44,9 @@
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
+/* Project Modal */
+.css-skills-used-list {
+  list-style: none;
+  padding-left: 0;
+}
