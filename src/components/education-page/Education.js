@@ -7,11 +7,10 @@ const Education = ({ schoolLogo, school, degree, discipline, gpa, date }) => {
       </div>
 
       {/* Information */}
-      <div className="d-flex flex-column justify-content-center">
+      <div className="d-flex flex-column justify-content-center css-school-info-col">
         <div className="d-flex flex-row">
           {/* School Name and Date*/}
-          <h3 className="mr-5">{school}</h3>
-          <p className="ml-5 css-ed-date">{date}</p>
+          <h3 className="css-school-title">{school}</h3>
         </div>
 
         <div className="d-flex flex-row">
@@ -24,6 +23,10 @@ const Education = ({ schoolLogo, school, degree, discipline, gpa, date }) => {
 
         {/* GPA */}
         <span>GPA: {gpa} </span>
+      </div>
+
+      <div className="d-flex flex-column ml-auto">
+        <p className="ml-5 css-ed-date">{date}</p>
       </div>
     </div>
   );

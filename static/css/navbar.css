@@ -11,7 +11,7 @@
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    width: 17rem;
+    width: 20rem;
     height: 100vh;
   }
   #sideNav .navbar-brand {
@@ -26,6 +26,8 @@
     max-height: 10rem;
     border: 0.5rem solid rgba(255, 255, 255, 0.2);
   }
+
+  /* Mobile */
   #sideNav .navbar-collapse {
     display: -webkit-box;
     display: -ms-flexbox;
