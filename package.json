@@ -26,6 +26,6 @@
   },
   "devDependencies": {
     "serve": "^10.1.2",
-    "yarn": "^1.13.0"
+    "yarn": "^1.17.3"
   }
 }
