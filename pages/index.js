@@ -41,14 +41,11 @@ const Index = () => {
 
               {/* Other Platform Icons */}
               <div className="social-icons">
-                <a href="#">
+                <a href="https://linkedin.com/in/malik-shalash">
                   <i className="fab fa-linkedin-in" />
                 </a>
-                <a href="#">
+                <a href="https://github.com/mjshalash">
                   <i className="fab fa-github" />
-                </a>
-                <a href="#">
-                  <i className="fab fa-facebook-f" />
                 </a>
               </div>
             </div>
