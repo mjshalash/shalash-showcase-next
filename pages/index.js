@@ -124,26 +124,45 @@ const Index = () => {
               <div className="d-flex flex-column align-items-center">
                 {/* Row 1 */}
                 <div className="d-flex flex-row mb-4">
+                  {/* Phinance */}
+                  <Project
+                    mainImg={
+                      "../static/img/Project-Gallery/Phinance/AdminLogin.png"
+                    }
+                    imgSet={[
+                      "../static/img/Project-Gallery/Phinance/AdminDashboard.png",
+                      "../static/img/Project-Gallery/Phinance/BudgetDashboard.png",
+                      "../static/img/Project-Gallery/Phinance/EditTransaction.png",
+                      "../static/img/Project-Gallery/Phinance/MemberDashboard.png"
+                    ]}
+                    title={"Phinance"}
+                  />
+
+                  {/* Solstice Incorporated */}
+                  {/* Need to check if I am allowed to use this image publicly
+                      as the information may be private to Solstice. May need to setup a password system for site
+                  */}
+                  {/* <Project
+                    mainImg={
+                      "../static/img/Project-Gallery/Solstice/PrintedRollManager1.png"
+                    }
+                    imgSet={[
+                      "../static/img/Project-Gallery/Solstice/PrintedRollManager1.png",
+                      "../static/img/Project-Gallery/Solstice/PrintedRollManager2.png"
+                    ]}
+                    title={"Printed Roll Manager"}
+                  /> */}
                   <Project
                     mainImg={
                       "../static/img/Project-Gallery/placeholder-image.png"
                     }
                     imgSet={[
                       "../static/img/Project-Gallery/placeholder-image.png",
-                      "../static/img/moi.png"
-                    ]}
-                    title={"Project 1"}
-                  />
-                  <Project
-                    mainImg={
-                      "../static/img/Project-Gallery/placeholder-image.png"
-                    }
-                    imgSet={[
-                      "../static/img/Project-Gallery/placeholder-image.png",
                       "../static/img/Project-Gallery/placeholder-image.png"
                     ]}
-                    title={"Project 2"}
+                    title={"Solstice Manager"}
                   />
+
                   <Project
                     mainImg={
                       "../static/img/Project-Gallery/placeholder-image.png"

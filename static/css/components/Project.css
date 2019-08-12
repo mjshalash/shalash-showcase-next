@@ -1,3 +1,7 @@
+.css-proj-item {
+  min-width: 25rem;
+}
+
 .css-proj-img:hover {
   background: rgba(0, 20, 24, 0.8);
 }
