@@ -82,7 +82,7 @@ const Index = () => {
                     developed a similiar preoccupation with the inner
                     mechinations of business. I believe merging these two
                     powerful industries, in an effective manner, can positively
-                    transorm company. This belief is the driving force behind my
+                    transform company. This belief is the driving force behind my
                     pursuit of an MBA in addition to my Bachelor's and Master's
                     in Engineering. Ultimately, I feel as though my abilities
                     are best applied in some role which oversees the
