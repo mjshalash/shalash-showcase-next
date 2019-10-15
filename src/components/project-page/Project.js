@@ -1,13 +1,13 @@
 import ProjectModal from "./ProjectModal";
 
-const Project = ({ link, mainImg, imgSet, title }) => {
+const Project = ({ link, mainImg, imgSet, title, modalId }) => {
   return (
     <div className="d-flex flex-column align-items-center mx-1 px-3 css-proj-item">
       <button
         type="button"
         className="btn btn-primary"
         data-toggle="modal"
-        data-target="#exampleModal"
+        data-target={"#" + modalId}
         className="css-link-container"
       >
         <img className="img-fluid css-proj-image" src={mainImg} />
@@ -16,7 +16,7 @@ const Project = ({ link, mainImg, imgSet, title }) => {
         </div>
       </button>
 
-      <ProjectModal title={title} imgSet={imgSet} />
+      <ProjectModal title={title} imgSet={imgSet} modalId={modalId} />
     </div>
   );
 };

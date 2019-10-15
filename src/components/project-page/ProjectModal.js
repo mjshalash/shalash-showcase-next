@@ -1,8 +1,8 @@
-function ProjectModal({ link, imgSet, title }) {
+function ProjectModal({ link, imgSet, title, modalId }) {
   return (
     <div
       className="modal fade"
-      id="exampleModal"
+      id={modalId}
       tabIndex="-1"
       role="dialog"
       aria-labelledby="exampleModalLabel"

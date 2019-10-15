@@ -7,9 +7,7 @@ import Skill from "../src/components/skills-page/Skill";
 
 const Index = () => {
   return (
-    <Template
-      title={"Shalash Showcase"}
-    >
+    <Template title={"Shalash Showcase"}>
       <div className="d-flex flex-column">
         {/* Introduction */}
         <div className="d-flex flex-row">
@@ -82,10 +80,10 @@ const Index = () => {
                     developed a similiar preoccupation with the inner
                     mechinations of business. I believe merging these two
                     powerful industries, in an effective manner, can positively
-                    transform company. This belief is the driving force behind my
-                    pursuit of an MBA in addition to my Bachelor's and Master's
-                    in Engineering. Ultimately, I feel as though my abilities
-                    are best applied in some role which oversees the
+                    transform company. This belief is the driving force behind
+                    my pursuit of an MBA in addition to my Bachelor's and
+                    Master's in Engineering. Ultimately, I feel as though my
+                    abilities are best applied in some role which oversees the
                     collaboration between Information Technology and the
                     company's business maneuvers.
                     <b> [NOT DONE]</b>
@@ -123,22 +121,8 @@ const Index = () => {
                       "../static/img/Project-Gallery/Phinance/MemberDashboard.png"
                     ]}
                     title={"Phinance"}
+                    modalId="PHINANCE"
                   />
-
-                  {/* Solstice Incorporated */}
-                  {/* Need to check if I am allowed to use this image publicly
-                      as the information may be private to Solstice. May need to setup a password system for site
-                  */}
-                  {/* <Project
-                    mainImg={
-                      "../static/img/Project-Gallery/Solstice/PrintedRollManager1.png"
-                    }
-                    imgSet={[
-                      "../static/img/Project-Gallery/Solstice/PrintedRollManager1.png",
-                      "../static/img/Project-Gallery/Solstice/PrintedRollManager2.png"
-                    ]}
-                    title={"Printed Roll Manager"}
-                  /> */}
                   <Project
                     mainImg={
                       "../static/img/Project-Gallery/placeholder-image.png"
@@ -148,6 +132,7 @@ const Index = () => {
                       "../static/img/Project-Gallery/placeholder-image.png"
                     ]}
                     title={"Solstice Manager"}
+                    modalId="SOLMANAGER"
                   />
                 </div>
 
