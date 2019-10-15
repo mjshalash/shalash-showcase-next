@@ -109,13 +109,15 @@ const Template = ({ title, className, children }) => (
       />
     </Head>
 
-    {/* Navigation Sidebar */}
-    <div className="d-flex flex-column">
-      <Navbar siteName={"Shalash Showcase"} />
+    <div className="d-flex flex-row">
+      {/* Navigation Sidebar */}
+      <div className="d-flex flex-column">
+        <Navbar siteName={"Shalash Showcase"} />
+      </div>
+  
+      {/* Page Content */}
+      <div className="d-flex flex-column css-main-page-content">{children}</div>
     </div>
-
-    {/* Page Content */}
-    <div className={className}>{children}</div>
   </span>
 );
 export default Template;
