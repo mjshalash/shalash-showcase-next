@@ -159,30 +159,6 @@ const Index = () => {
                     title={"Project 4"}
                   />
                 </div>
-
-                {/* Row 3 */}
-                <div className="d-flex flex-row mb-4">
-                  <Project
-                    mainImg={
-                      "../static/img/Project-Gallery/placeholder-image.png"
-                    }
-                    imgSet={[
-                      "../static/img/Project-Gallery/placeholder-image.png",
-                      "../static/img/Project-Gallery/placeholder-image.png"
-                    ]}
-                    title={"Project 5"}
-                  />
-                  <Project
-                    mainImg={
-                      "../static/img/Project-Gallery/placeholder-image.png"
-                    }
-                    imgSet={[
-                      "../static/img/Project-Gallery/placeholder-image.png",
-                      "../static/img/Project-Gallery/placeholder-image.png"
-                    ]}
-                    title={"Project 6"}
-                  />
-                </div>
               </div>
             </div>
           </section>
