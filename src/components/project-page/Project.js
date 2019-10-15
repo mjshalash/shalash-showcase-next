@@ -2,7 +2,7 @@ import ProjectModal from "./ProjectModal";
 
 const Project = ({ link, mainImg, imgSet, title }) => {
   return (
-    <div className="d-flex flex-column align-items-center mx-1 px-3">
+    <div className="d-flex flex-column align-items-center mx-1 px-3 css-proj-item">
       <button
         type="button"
         className="btn btn-primary"

@@ -1,4 +1,4 @@
-const ProjectModal = ({ link, imgSet, title }) => {
+function ProjectModal({ link, imgSet, title }) {
   return (
     <div
       className="modal fade"
@@ -147,6 +147,6 @@ const ProjectModal = ({ link, imgSet, title }) => {
       </div>
     </div>
   );
-};
+}
 
 export default ProjectModal;
