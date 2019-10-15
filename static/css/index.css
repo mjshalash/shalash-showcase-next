@@ -98,8 +98,8 @@ p.lead {
 }
 
 /* Sets Margin so sidenav does not overlay page content */
-.css-page-main-content {
-  margin-left: 30rem;
+.css-main-page-content {
+  margin-left: 20rem;
 }
 
 .subheading a {

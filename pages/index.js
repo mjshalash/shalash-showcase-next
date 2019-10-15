@@ -9,7 +9,6 @@ const Index = () => {
   return (
     <Template
       title={"Shalash Showcase"}
-      className={"container-fluid css-page-main-content"}
     >
       <div className="d-flex flex-column">
         {/* Introduction */}
@@ -150,17 +149,6 @@ const Index = () => {
                     ]}
                     title={"Solstice Manager"}
                   />
-
-                  <Project
-                    mainImg={
-                      "../static/img/Project-Gallery/placeholder-image.png"
-                    }
-                    imgSet={[
-                      "../static/img/Project-Gallery/placeholder-image.png",
-                      "../static/img/Project-Gallery/placeholder-image.png"
-                    ]}
-                    title={"Project 3"}
-                  />
                 </div>
 
                 {/* Row 2 */}
@@ -173,8 +161,22 @@ const Index = () => {
                       "../static/img/Project-Gallery/placeholder-image.png",
                       "../static/img/Project-Gallery/placeholder-image.png"
                     ]}
+                    title={"Project 3"}
+                  />
+                  <Project
+                    mainImg={
+                      "../static/img/Project-Gallery/placeholder-image.png"
+                    }
+                    imgSet={[
+                      "../static/img/Project-Gallery/placeholder-image.png",
+                      "../static/img/Project-Gallery/placeholder-image.png"
+                    ]}
                     title={"Project 4"}
                   />
+                </div>
+
+                {/* Row 3 */}
+                <div className="d-flex flex-row mb-4">
                   <Project
                     mainImg={
                       "../static/img/Project-Gallery/placeholder-image.png"
@@ -194,40 +196,6 @@ const Index = () => {
                       "../static/img/Project-Gallery/placeholder-image.png"
                     ]}
                     title={"Project 6"}
-                  />
-                </div>
-
-                {/* Row 3 */}
-                <div className="d-flex flex-row mb-4">
-                  <Project
-                    mainImg={
-                      "../static/img/Project-Gallery/placeholder-image.png"
-                    }
-                    imgSet={[
-                      "../static/img/Project-Gallery/placeholder-image.png",
-                      "../static/img/Project-Gallery/placeholder-image.png"
-                    ]}
-                    title={"Project 7"}
-                  />
-                  <Project
-                    mainImg={
-                      "../static/img/Project-Gallery/placeholder-image.png"
-                    }
-                    imgSet={[
-                      "../static/img/Project-Gallery/placeholder-image.png",
-                      "../static/img/Project-Gallery/placeholder-image.png"
-                    ]}
-                    title={"Project 8"}
-                  />
-                  <Project
-                    mainImg={
-                      "../static/img/Project-Gallery/placeholder-image.png"
-                    }
-                    imgSet={[
-                      "../static/img/Project-Gallery/placeholder-image.png",
-                      "../static/img/Project-Gallery/placeholder-image.png"
-                    ]}
-                    title={"Project 9"}
                   />
                 </div>
               </div>
