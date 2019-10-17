@@ -58,8 +58,8 @@ const Index = () => {
             {/* About Me Content */}
             <div className="d-flex flex-column align-items-center w-100">
               {/* Heading */}
-              <div className="d-flex flex-row justify-content-center w-100 mt-3 mb-3">
-                <h3>ABOUT ME</h3>
+              <div className="d-flex flex-row w-100 mt-3 mb-3">
+                <h2>ABOUT ME</h2>
               </div>
 
               {/* Image + Content */}
@@ -102,8 +102,8 @@ const Index = () => {
           >
             <div className="d-flex flex-column w-100">
               {/* Grid Heading */}
-              <div className="d-flex flex-row justify-content-center pt-3">
-                <h4>Projects</h4>
+              <div className="d-flex flex-row pt-3">
+                <h2>Projects</h2>
               </div>
 
               <div className="d-flex flex-column align-items-center">
@@ -125,14 +125,14 @@ const Index = () => {
                   />
                   <Project
                     mainImg={
-                      "../static/img/Project-Gallery/placeholder-image.png"
+                      "../static/img/Project-Gallery/Consortium/Home.png"
                     }
                     imgSet={[
-                      "../static/img/Project-Gallery/placeholder-image.png",
-                      "../static/img/Project-Gallery/placeholder-image.png"
+                      "../static/img/Project-Gallery/Consortium/our-research.png",
+                      "../static/img/Project-Gallery/Consortium/spotlight.png"
                     ]}
-                    title={"Solstice Manager"}
-                    modalId="SOLMANAGER"
+                    title={"UofL Social Justice Site"}
+                    modalId="ULSOCIALJUSTICE"
                   />
                 </div>
 
