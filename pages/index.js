@@ -272,6 +272,28 @@ const Index = () => {
               {/* TODO: Add Colors */}
 
               <div className="d-flex flex-row">
+                {/* General Programming */}
+                <div className="d-flex flex-column align-items-center ml-2 css-db-col">
+                  <h4>General Development</h4>
+                  {/* C# */}
+                  <Skill
+                    skillIcon={"fab fa-cuttlefish css-skill-icon"}
+                    skillTitle={"C#"}
+                  />
+
+                  {/* ASP.Net */}
+                  <Skill
+                    skillIcon={"fab fa-microsoft css-skill-icon"}
+                    skillTitle={"ASP.Net"}
+                  />
+
+                  {/* Python */}
+                  <Skill
+                    skillIcon={"fab fa-python css-skill-icon"}
+                    skillTitle={"Python"}
+                  />
+                </div>
+
                 {/* Web Development */}
                 <div className="d-flex flex-column align-items-center ml-2 css-web-col">
                   <h4>Web Development</h4>
