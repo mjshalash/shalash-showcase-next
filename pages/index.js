@@ -115,48 +115,58 @@ const Index = () => {
                       "../static/img/Project-Gallery/Phinance/AdminLogin.png"
                     }
                     imgSet={[
+                      "../static/img/Project-Gallery/Phinance/AdminLogin.png",
                       "../static/img/Project-Gallery/Phinance/AdminDashboard.png",
                       "../static/img/Project-Gallery/Phinance/BudgetDashboard.png",
                       "../static/img/Project-Gallery/Phinance/EditTransaction.png",
                       "../static/img/Project-Gallery/Phinance/MemberDashboard.png"
                     ]}
                     title={"Phinance"}
-                    modalId="PHINANCE"
+                    id="PHINANCE"
                   />
+
+                  {/* Consoritum */}
                   <Project
                     mainImg={
                       "../static/img/Project-Gallery/Consortium/Home.png"
                     }
                     imgSet={[
+                      "../static/img/Project-Gallery/Consortium/Home.png",
                       "../static/img/Project-Gallery/Consortium/our-research.png",
                       "../static/img/Project-Gallery/Consortium/spotlight.png"
                     ]}
                     title={"UofL Social Justice Site"}
-                    modalId="ULSOCIALJUSTICE"
+                    id="ULSOCIALJUSTICE"
                   />
                 </div>
 
                 {/* Row 2 */}
                 <div className="d-flex flex-row mb-4">
+                  {/* Renal App */}
                   <Project
                     mainImg={
-                      "../static/img/Project-Gallery/placeholder-image.png"
+                      "../static/img/Project-Gallery/RenalApp/HomeScreen.png"
                     }
                     imgSet={[
-                      "../static/img/Project-Gallery/placeholder-image.png",
-                      "../static/img/Project-Gallery/placeholder-image.png"
+                      "../static/img/Project-Gallery/RenalApp/HomeScreen.png",
+                      "../static/img/Project-Gallery/RenalApp/Bookmarks.png",
+                      "../static/img/Project-Gallery/RenalApp/Sidebar.png"
                     ]}
-                    title={"Project 3"}
+                    title={"Adult Renal Patients Mobile App"}
+                    id="RENALAPP"
                   />
+
+                  {/* Flappy Bird - ML */}
                   <Project
                     mainImg={
-                      "../static/img/Project-Gallery/placeholder-image.png"
+                      "../static/img/Project-Gallery/FlappyBird/GenOne.png"
                     }
                     imgSet={[
-                      "../static/img/Project-Gallery/placeholder-image.png",
-                      "../static/img/Project-Gallery/placeholder-image.png"
+                      "../static/img/Project-Gallery/FlappyBird/GenOne.png",
+                      "../static/img/Project-Gallery/FlappyBird/GenSeven.png"
                     ]}
-                    title={"Project 4"}
+                    title={"Flappy Bird - Machine Learning"}
+                    id="FLAPPYBIRD"
                   />
                 </div>
               </div>

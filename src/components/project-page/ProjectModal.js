@@ -1,8 +1,8 @@
-function ProjectModal({ link, imgSet, title, modalId }) {
+function ProjectModal({ link, imgSet, title, id, modalId, carouselId }) {
   return (
     <div
       className="modal fade"
-      id={modalId}
+      id={"modal" + id}
       tabIndex="-1"
       role="dialog"
       aria-labelledby="exampleModalLabel"
@@ -32,7 +32,7 @@ function ProjectModal({ link, imgSet, title, modalId }) {
             <div className="d-flex flex-column align-items-center w-100">
               {/* Image Carousel */}
               <div
-                id="carouselExampleControls"
+                id={"carousel" + id}
                 className="carousel slide"
                 data-ride="carousel"
               >
@@ -53,17 +53,10 @@ function ProjectModal({ link, imgSet, title, modalId }) {
                       );
                     }
                   })}
-                  {/* <div className="carousel-item active">
-                    <img
-                      className="d-block w-100"
-                      src={imgSet}
-                      alt="First slide"
-                    />
-                  </div> */}
                 </div>
                 <a
                   className="carousel-control-prev"
-                  href="#carouselExampleControls"
+                  href={"#carousel" + id}
                   role="button"
                   data-slide="prev"
                 >
@@ -75,7 +68,7 @@ function ProjectModal({ link, imgSet, title, modalId }) {
                 </a>
                 <a
                   className="carousel-control-next"
-                  href="#carouselExampleControls"
+                  href={"#carousel" + id}
                   role="button"
                   data-slide="next"
                 >
