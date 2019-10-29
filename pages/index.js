@@ -68,7 +68,7 @@ const Index = () => {
                 <div className="d-flex flex-column align-items-center w-100">
                   <p className="css-about-first-col mr-3">
                     <img
-                      className="css-about-profile-img mr-2"
+                      className="img-fluid img-profile rounded-circle css-about-profile-img mr-2"
                       src="../static/img/Profile.png"
                     />
                     I am a current Master's in Engineering student at the
