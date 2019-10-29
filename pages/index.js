@@ -27,7 +27,7 @@ const Index = () => {
                 </a>
               </div>
               <p className="lead mb-5">
-                I have had a passion for programming since my parent's bought me
+                I have had a passion for programming since my parents bought me
                 my first computer. Technology transforms our environment every
                 single day. Because of this, programming is the language of the
                 future.
