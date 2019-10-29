@@ -8,6 +8,9 @@
 
 .css-link-container {
   position: relative;
+  padding: 0;
+  background-color: #ffffff;
+  border: none;
 }
 
 .css-link-container:hover .css-proj-overlay {

@@ -27,7 +27,7 @@ const Index = () => {
                 </a>
               </div>
               <p className="lead mb-5">
-                I have had a passion for programming since my parent's bought me
+                I have had a passion for programming since my parents bought me
                 my first computer. Technology transforms our environment every
                 single day. Because of this, programming is the language of the
                 future.
@@ -68,7 +68,7 @@ const Index = () => {
                 <div className="d-flex flex-column align-items-center w-100">
                   <p className="css-about-first-col mr-3">
                     <img
-                      className="css-about-profile-img mr-2"
+                      className="img-fluid img-profile rounded-circle css-about-profile-img mr-2"
                       src="../static/img/Profile.png"
                     />
                     I am a current Master's in Engineering student at the
@@ -241,7 +241,7 @@ const Index = () => {
                 }
                 company={"UofL Integrative Development and Design Team"}
                 location={"Louisville, Kentucky"}
-                position={"Senior Software Developer"}
+                position={"Software Developer"}
                 date={"December 2018 - Present"}
               />
 
