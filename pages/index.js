@@ -211,13 +211,13 @@ const Index = () => {
               />
 
               {/* Martha Layne Collins High School */}
-              <Education
+              {/* <Education
                 schoolLogo={"../../static/img/Education/MLCTitans.jpg"}
                 school={"Martha Layne Collins High School"}
                 degree={"Project Lead the Way Engineering Track"}
                 gpa={"4.0"}
                 date={"August 2011 - May 2015"}
-              />
+              /> */}
             </div>
           </section>
         </div>
