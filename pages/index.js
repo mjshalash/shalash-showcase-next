@@ -241,7 +241,7 @@ const Index = () => {
                 }
                 company={"UofL Integrative Development and Design Team"}
                 location={"Louisville, Kentucky"}
-                position={"Senior Software Developer"}
+                position={"Software Developer"}
                 date={"December 2018 - Present"}
               />
 
