@@ -7,9 +7,7 @@ import Skill from "../src/components/skills-page/Skill";
 
 const Index = () => {
   return (
-    <Template
-      title={"Shalash Showcase"}
-    >
+    <Template title={"Shalash Showcase"}>
       <div className="d-flex flex-column">
         {/* Introduction */}
         <div className="d-flex flex-row">
@@ -60,8 +58,8 @@ const Index = () => {
             {/* About Me Content */}
             <div className="d-flex flex-column align-items-center w-100">
               {/* Heading */}
-              <div className="d-flex flex-row justify-content-center w-100 mt-3 mb-3">
-                <h3>ABOUT ME</h3>
+              <div className="d-flex flex-row w-100 mt-3 mb-3">
+                <h2>ABOUT ME</h2>
               </div>
 
               {/* Image + Content */}
@@ -82,10 +80,10 @@ const Index = () => {
                     developed a similiar preoccupation with the inner
                     mechinations of business. I believe merging these two
                     powerful industries, in an effective manner, can positively
-                    transform company. This belief is the driving force behind my
-                    pursuit of an MBA in addition to my Bachelor's and Master's
-                    in Engineering. Ultimately, I feel as though my abilities
-                    are best applied in some role which oversees the
+                    transform company. This belief is the driving force behind
+                    my pursuit of an MBA in addition to my Bachelor's and
+                    Master's in Engineering. Ultimately, I feel as though my
+                    abilities are best applied in some role which oversees the
                     collaboration between Information Technology and the
                     company's business maneuvers.
                     <b> [NOT DONE]</b>
@@ -104,8 +102,8 @@ const Index = () => {
           >
             <div className="d-flex flex-column w-100">
               {/* Grid Heading */}
-              <div className="d-flex flex-row justify-content-center pt-3">
-                <h4>Projects</h4>
+              <div className="d-flex flex-row pt-3">
+                <h2>Projects</h2>
               </div>
 
               <div className="d-flex flex-column align-items-center">
@@ -117,85 +115,58 @@ const Index = () => {
                       "../static/img/Project-Gallery/Phinance/AdminLogin.png"
                     }
                     imgSet={[
+                      "../static/img/Project-Gallery/Phinance/AdminLogin.png",
                       "../static/img/Project-Gallery/Phinance/AdminDashboard.png",
                       "../static/img/Project-Gallery/Phinance/BudgetDashboard.png",
                       "../static/img/Project-Gallery/Phinance/EditTransaction.png",
                       "../static/img/Project-Gallery/Phinance/MemberDashboard.png"
                     ]}
                     title={"Phinance"}
+                    id="PHINANCE"
                   />
 
-                  {/* Solstice Incorporated */}
-                  {/* Need to check if I am allowed to use this image publicly
-                      as the information may be private to Solstice. May need to setup a password system for site
-                  */}
-                  {/* <Project
-                    mainImg={
-                      "../static/img/Project-Gallery/Solstice/PrintedRollManager1.png"
-                    }
-                    imgSet={[
-                      "../static/img/Project-Gallery/Solstice/PrintedRollManager1.png",
-                      "../static/img/Project-Gallery/Solstice/PrintedRollManager2.png"
-                    ]}
-                    title={"Printed Roll Manager"}
-                  /> */}
+                  {/* Consoritum */}
                   <Project
                     mainImg={
-                      "../static/img/Project-Gallery/placeholder-image.png"
+                      "../static/img/Project-Gallery/Consortium/Home.png"
                     }
                     imgSet={[
-                      "../static/img/Project-Gallery/placeholder-image.png",
-                      "../static/img/Project-Gallery/placeholder-image.png"
+                      "../static/img/Project-Gallery/Consortium/Home.png",
+                      "../static/img/Project-Gallery/Consortium/our-research.png",
+                      "../static/img/Project-Gallery/Consortium/spotlight.png"
                     ]}
-                    title={"Solstice Manager"}
+                    title={"UofL Social Justice Site"}
+                    id="ULSOCIALJUSTICE"
                   />
                 </div>
 
                 {/* Row 2 */}
                 <div className="d-flex flex-row mb-4">
+                  {/* Renal App */}
                   <Project
                     mainImg={
-                      "../static/img/Project-Gallery/placeholder-image.png"
+                      "../static/img/Project-Gallery/RenalApp/HomeScreen.png"
                     }
                     imgSet={[
-                      "../static/img/Project-Gallery/placeholder-image.png",
-                      "../static/img/Project-Gallery/placeholder-image.png"
+                      "../static/img/Project-Gallery/RenalApp/HomeScreen.png",
+                      "../static/img/Project-Gallery/RenalApp/Bookmarks.png",
+                      "../static/img/Project-Gallery/RenalApp/Sidebar.png"
                     ]}
-                    title={"Project 3"}
+                    title={"Adult Renal Patients Mobile App"}
+                    id="RENALAPP"
                   />
-                  <Project
-                    mainImg={
-                      "../static/img/Project-Gallery/placeholder-image.png"
-                    }
-                    imgSet={[
-                      "../static/img/Project-Gallery/placeholder-image.png",
-                      "../static/img/Project-Gallery/placeholder-image.png"
-                    ]}
-                    title={"Project 4"}
-                  />
-                </div>
 
-                {/* Row 3 */}
-                <div className="d-flex flex-row mb-4">
+                  {/* Flappy Bird - ML */}
                   <Project
                     mainImg={
-                      "../static/img/Project-Gallery/placeholder-image.png"
+                      "../static/img/Project-Gallery/FlappyBird/GenOne.png"
                     }
                     imgSet={[
-                      "../static/img/Project-Gallery/placeholder-image.png",
-                      "../static/img/Project-Gallery/placeholder-image.png"
+                      "../static/img/Project-Gallery/FlappyBird/GenOne.png",
+                      "../static/img/Project-Gallery/FlappyBird/GenSeven.png"
                     ]}
-                    title={"Project 5"}
-                  />
-                  <Project
-                    mainImg={
-                      "../static/img/Project-Gallery/placeholder-image.png"
-                    }
-                    imgSet={[
-                      "../static/img/Project-Gallery/placeholder-image.png",
-                      "../static/img/Project-Gallery/placeholder-image.png"
-                    ]}
-                    title={"Project 6"}
+                    title={"Flappy Bird - Machine Learning"}
+                    id="FLAPPYBIRD"
                   />
                 </div>
               </div>
@@ -301,6 +272,28 @@ const Index = () => {
               {/* TODO: Add Colors */}
 
               <div className="d-flex flex-row">
+                {/* General Programming */}
+                <div className="d-flex flex-column align-items-center ml-2 css-db-col">
+                  <h4>General Development</h4>
+                  {/* C# */}
+                  <Skill
+                    skillIcon={"fab fa-cuttlefish css-skill-icon"}
+                    skillTitle={"C#"}
+                  />
+
+                  {/* ASP.Net */}
+                  <Skill
+                    skillIcon={"fab fa-microsoft css-skill-icon"}
+                    skillTitle={"ASP.Net"}
+                  />
+
+                  {/* Python */}
+                  <Skill
+                    skillIcon={"fab fa-python css-skill-icon"}
+                    skillTitle={"Python"}
+                  />
+                </div>
+
                 {/* Web Development */}
                 <div className="d-flex flex-column align-items-center ml-2 css-web-col">
                   <h4>Web Development</h4>
