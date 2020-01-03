@@ -1,5 +1,8 @@
 import { createStore, applyMiddleware } from "redux";
 import { composeWithDevTools } from "redux-devtools-extension";
-import reducer from "./reducers/index";
 
-export default store = createStore(reducer, composeWithDevTools());
+import reducers from "./reducers";
+import index from "./reducers";
+import rootReducer from "./reducers/index";
+
+export const store = createStore(rootReducer, composeWithDevTools());

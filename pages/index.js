@@ -1,4 +1,4 @@
-import store from "../src/store";
+import { store } from "../src/store";
 import { Provider } from "react-redux";
 
 import Template from "../src/components/common/Template";
