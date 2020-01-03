@@ -127,7 +127,15 @@ const Index = () => {
                       ]}
                       title={"Phinance"}
                       id="PHINANCE"
-                    />
+                    >
+                      <p>
+                        Phinance is a financial management platform designed
+                        specifically with Collegiate Greek organizations in
+                        mind. Phinance was built using a stack of Mongo,
+                        Express, React and Node (MERN). This was developed as
+                        part of a school project.
+                      </p>
+                    </Project>
 
                     {/* Consoritum */}
                     <Project

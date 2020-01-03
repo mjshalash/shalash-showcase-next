@@ -1,6 +1,16 @@
 import ProjectModal from "./ProjectModal";
 
-const Project = ({ link, mainImg, imgSet, title, id, modalId, carouselId }) => {
+const Project = ({
+  children,
+  link,
+  mainImg,
+  imgSet,
+  title,
+  id,
+  modalId,
+  carouselId,
+  description
+}) => {
   return (
     <div className="d-flex flex-column align-items-center mx-1 px-3 css-proj-item">
       <button
@@ -22,7 +32,9 @@ const Project = ({ link, mainImg, imgSet, title, id, modalId, carouselId }) => {
         id={id}
         modalId={modalId}
         carouselId={carouselId}
-      />
+      >
+        {children}
+      </ProjectModal>
     </div>
   );
 };
