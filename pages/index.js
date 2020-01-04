@@ -175,7 +175,17 @@ const Index = () => {
                       ]}
                       title={"Adult Renal Patients Mobile App"}
                       id="RENALAPP"
-                    />
+                    >
+                      <p>
+                        The Adult Renal Patients Mobile App was the first
+                        project I worked on once I joined the Integrative Design
+                        and Development Team at the University of Louisville.
+                        The mobile application is the brainchild of a University
+                        doctor and researcher and the application's purpose is
+                        to provide clear and concise dosing information for
+                        kidney medication. It was built using React Native.
+                      </p>
+                    </Project>
 
                     {/* Flappy Bird - ML */}
                     <Project
@@ -188,7 +198,15 @@ const Index = () => {
                       ]}
                       title={"Flappy Bird - Machine Learning"}
                       id="FLAPPYBIRD"
-                    />
+                    >
+                      <p>
+                        This was a personal project of mine based on a tutorial
+                        detailing how to create an artificial intelligence
+                        program which can learn to play Flappy Bird. The program
+                        was written using Python and NEAT (for creating the
+                        neural network).
+                      </p>
+                    </Project>
                   </div>
                 </div>
               </div>
