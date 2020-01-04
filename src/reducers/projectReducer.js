@@ -1,3 +1,6 @@
+/*
+ * Represents individual project
+ */
 const initialState = {
   selectedProjectId: ""
 };
