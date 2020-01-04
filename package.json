@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "dev": "next",
-    "build": "next build",
     "start": "next start -p $PORT",
     "export": "next export",
     "static": "yarn build && yarn export",
@@ -30,5 +29,8 @@
     "redux-devtools-extension": "^2.13.8",
     "serve": "^10.1.2",
     "yarn": "^1.17.3"
+  },
+  "engines": {
+    "node": "10.x"
   }
 }
