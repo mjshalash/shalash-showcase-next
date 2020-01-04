@@ -149,7 +149,16 @@ const Index = () => {
                       ]}
                       title={"UofL Social Justice Site"}
                       id="ULSOCIALJUSTICE"
-                    />
+                    >
+                      <p>
+                        I contributed to this site as part of the Integrative
+                        Design and Development Team at the University of
+                        Louisville. This is a static site, created using
+                        Javascript, HTML and CSS. This web site is a precursor
+                        to a much more robust Research Content Management
+                        system, which we our team is currently working on.
+                      </p>
+                    </Project>
                   </div>
 
                   {/* Row 2 */}
