@@ -1,8 +1,8 @@
 const Router = {
-  Home: "/",
-  About: "/about",
-  Projects: "/projects",
-  Education: "/educationhist",
-  Skills: "/skills"
+  Home: "/"
+  // About: "/about",
+  // Projects: "/projects",
+  // Education: "/educationhist",
+  // Skills: "/skills"
 };
 export default Router;
