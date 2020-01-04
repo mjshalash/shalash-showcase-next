@@ -1,9 +1,16 @@
+.css-proj-item {
+  min-width: 25rem;
+}
+
 .css-proj-img:hover {
   background: rgba(0, 20, 24, 0.8);
 }
 
 .css-link-container {
   position: relative;
+  padding: 0;
+  background-color: #ffffff;
+  border: none;
 }
 
 .css-link-container:hover .css-proj-overlay {
@@ -43,4 +50,10 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+/* Project Modal */
+.css-skills-used-list {
+  list-style: none;
+  padding-left: 0;
 }
