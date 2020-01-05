@@ -10,23 +10,23 @@ const Education = ({ schoolLogo, school, degree, discipline, gpa, date }) => {
       <div className="d-flex flex-column justify-content-center css-school-info-col">
         <div className="d-flex flex-row">
           {/* School Name and Date*/}
-          <h3 className="css-school-title">{school}</h3>
+          <h3 className="css-school-title fnt-roboto">{school}</h3>
         </div>
 
         <div className="d-flex flex-row">
           {/* Degree */}
-          <h5>{degree}</h5>
+          <h5 className="fnt-roboto">{degree}</h5>
         </div>
 
         {/* Discipline */}
-        <h6>{discipline}</h6>
+        <h6 className="fnt-roboto">{discipline}</h6>
 
         {/* GPA */}
-        <span>GPA: {gpa} </span>
+        <span className="fnt-roboto">GPA: {gpa} </span>
       </div>
 
       <div className="d-flex flex-column ml-auto">
-        <p className="ml-5 css-ed-date">{date}</p>
+        <p className="ml-5 css-ed-date fnt-roboto">{date}</p>
       </div>
     </div>
   );

@@ -34,8 +34,8 @@ section.resume-section .resume-item .resume-date {
   font-size: 1.5rem;
 }
 
-p.lead {
-  font-size: 1.15rem;
+.css-intro-text {
+  font-size: 1.125rem;
   font-weight: 400;
 }
 

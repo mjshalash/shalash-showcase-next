@@ -58,6 +58,7 @@ const Template = ({ title, className, children }) => (
       />
 
       {/* My Stylesheets */}
+
       {/* Index */}
       <link
         rel="stylesheet"
@@ -114,7 +115,7 @@ const Template = ({ title, className, children }) => (
       <div className="d-flex flex-column">
         <Navbar siteName={"Shalash Showcase"} />
       </div>
-  
+
       {/* Page Content */}
       <div className="d-flex flex-column css-main-page-content">{children}</div>
     </div>

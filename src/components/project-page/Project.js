@@ -22,7 +22,7 @@ const Project = ({
       >
         <img className="img-fluid css-proj-image" src={mainImg} />
         <div className="css-proj-overlay">
-          <div className="css-proj-title">{title}</div>
+          <div className="css-proj-title fnt-roboto">{title}</div>
         </div>
       </button>
 
