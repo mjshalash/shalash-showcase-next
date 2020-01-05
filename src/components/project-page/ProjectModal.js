@@ -20,7 +20,7 @@ function ProjectModal({
         <div className="modal-content">
           {/* Modal Title */}
           <div className="modal-header">
-            <h5 className="modal-title" id="exampleModalLabel">
+            <h5 className="modal-title fnt-roboto" id="exampleModalLabel">
               {title}
             </h5>
             <button
@@ -91,8 +91,8 @@ function ProjectModal({
               {/* Skill Used */}
               <div className="d-flex flex-row">
                 <div className="d-flex flex-column">
-                  <h6>Skills Used</h6>
-                  <ul className="css-skills-used-list">
+                  <h6 className="fnt-roboto">Skills Used</h6>
+                  <ul className="css-skills-used-list fnt-roboto">
                     <li>HTML</li>
                     <li>Javascript</li>
                   </ul>
@@ -101,7 +101,9 @@ function ProjectModal({
 
               <div className="d-flex flex-row">
                 {/* Project Description */}
-                <p className="css-about-first-col mr-3">{children}</p>
+                <p className="css-about-first-col mr-3 fnt-roboto">
+                  {children}
+                </p>
               </div>
             </div>
           </div>
@@ -110,7 +112,7 @@ function ProjectModal({
           <div className="modal-footer">
             <button
               type="button"
-              className="btn btn-secondary"
+              className="btn btn-secondary fnt-roboto"
               data-dismiss="modal"
             >
               Back

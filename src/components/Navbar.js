@@ -7,7 +7,7 @@ const Navbar = () => (
   >
     {/* Logo/Picture */}
     <a className="navbar-brand js-scroll-trigger" href="#intro">
-      <span className="d-block d-lg-none">Malik Shalash</span>
+      <span className="d-block d-lg-none fnt-roboto">Shalash Showcase</span>
       <span className="d-none d-lg-block">
         <img
           className="img-fluid img-profile rounded-circle mx-auto mb-2"
@@ -34,32 +34,38 @@ const Navbar = () => (
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav">
         <li className="nav-item">
-          <a className="nav-link js-scroll-trigger" href="#intro">
+          <a className="nav-link js-scroll-trigger fnt-roboto" href="#intro">
             Home
           </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link js-scroll-trigger" href="#about">
+          <a className="nav-link js-scroll-trigger fnt-roboto" href="#about">
             About
           </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link js-scroll-trigger" href="#projects">
+          <a className="nav-link js-scroll-trigger fnt-roboto" href="#projects">
             Projects
           </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link js-scroll-trigger" href="#education">
+          <a
+            className="nav-link js-scroll-trigger fnt-roboto"
+            href="#education"
+          >
             Education
           </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link js-scroll-trigger" href="#experience">
+          <a
+            className="nav-link js-scroll-trigger fnt-roboto"
+            href="#experience"
+          >
             Experience
           </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link js-scroll-trigger" href="#skills">
+          <a className="nav-link js-scroll-trigger fnt-roboto" href="#skills">
             Skills
           </a>
         </li>

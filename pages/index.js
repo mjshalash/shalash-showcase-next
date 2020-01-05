@@ -21,16 +21,19 @@ const Index = () => {
             >
               {/* Introduction Content */}
               <div className="w-100">
-                <h1 className="mb-0">
+                <h1 className="mb-0 fnt-roboto">
                   Malik
-                  <span className="text-primary">Shalash</span>
+                  <span className="text-primary fnt-roboto">Shalash</span>
                 </h1>
                 <div className="subheading mb-5">
-                  <a className="css-email-link" href="mailto:name@email.com">
+                  <a
+                    className="css-email-link fnt-roboto"
+                    href="mailto:name@email.com"
+                  >
                     mjshalash@rci4u.com
                   </a>
                 </div>
-                <p className="lead mb-5">
+                <p className="css-intro-text mb-5 fnt-roboto">
                   I have had a passion for programming since my parents bought
                   me my first computer. Technology transforms our environment
                   every single day. Because of this, programming is the language
@@ -63,14 +66,14 @@ const Index = () => {
               <div className="d-flex flex-column align-items-center w-100">
                 {/* Heading */}
                 <div className="d-flex flex-row w-100 mt-3 mb-3">
-                  <h2>ABOUT ME</h2>
+                  <h2 className="fnt-roboto">ABOUT ME</h2>
                 </div>
 
                 {/* Image + Content */}
                 <div className="d-flex flex-row justify-content-center w-100">
                   {/* Column 1 */}
                   <div className="d-flex flex-column align-items-center w-100">
-                    <p className="css-about-first-col mr-3">
+                    <p className="css-about-first-col mr-3 fnt-roboto">
                       <img
                         className="img-fluid img-profile rounded-circle css-about-profile-img mr-2"
                         src="../static/img/Profile.png"
@@ -106,7 +109,7 @@ const Index = () => {
               <div className="d-flex flex-column w-100">
                 {/* Grid Heading */}
                 <div className="d-flex flex-row pt-3">
-                  <h2>Projects</h2>
+                  <h2 className="fnt-roboto">Projects</h2>
                 </div>
 
                 <div className="d-flex flex-column align-items-center">
@@ -221,7 +224,7 @@ const Index = () => {
               <div className="d-flex flex-column css-education-items-col">
                 {/* Heading */}
                 <div className="d-flex flex-row">
-                  <h2>Education</h2>
+                  <h2 className="fnt-roboto">Education</h2>
                 </div>
 
                 {/* University of Louisville - Master's*/}
@@ -304,7 +307,7 @@ const Index = () => {
               <div className="d-flex flex-column">
                 {/* Heading */}
                 <div className="d-flex flex-row ml-2">
-                  <h2>Skills</h2>
+                  <h2 className="fnt-roboto">Skills</h2>
                 </div>
 
                 {/* TODO: Add Colors */}
@@ -312,7 +315,7 @@ const Index = () => {
                 <div className="d-flex flex-row">
                   {/* General Programming */}
                   <div className="d-flex flex-column align-items-center ml-2 css-db-col">
-                    <h4>General Development</h4>
+                    <h4 className="fnt-roboto">General Development</h4>
                     {/* C# */}
                     <Skill
                       skillIcon={"fab fa-cuttlefish css-skill-icon"}
@@ -334,7 +337,7 @@ const Index = () => {
 
                   {/* Web Development */}
                   <div className="d-flex flex-column align-items-center ml-2 css-web-col">
-                    <h4>Web Development</h4>
+                    <h4 className="fnt-roboto">Web Development</h4>
 
                     {/*HTML*/}
                     <Skill
@@ -369,7 +372,7 @@ const Index = () => {
 
                   {/* Database */}
                   <div className="d-flex flex-column align-items-center ml-2 css-db-col">
-                    <h4>Database/Back-End</h4>
+                    <h4 className="fnt-roboto">Database/Back-End</h4>
 
                     {/*SQL*/}
                     <Skill
@@ -386,7 +389,7 @@ const Index = () => {
 
                   {/* Utilities */}
                   <div className="d-flex flex-column align-items-center ml-2 css-util-col">
-                    <h4>Utilities</h4>
+                    <h4 className="fnt-roboto">Utilities</h4>
                     {/*Git*/}
                     <Skill
                       skillIcon={"fab fa-git css-skill-icon"}
