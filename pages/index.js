@@ -77,19 +77,19 @@ const Index = () => {
                       />
                       I am a current Master's in Engineering student at the
                       University of Louisville. I will graduate this program at
-                      the end of Spring 2020 and then plan to begin pursuit of a
-                      Master's in Business Administration in the Fall of 2020.
-                      Computer Science has been a passion of mine ever since my
-                      parents gifted me my fist computer. In later years, I have
+                      the end of Spring 2020 and then I will pursue a Master's
+                      in Business Administration in the Fall of 2020. Computer
+                      Science has been a passion of mine ever since my parents
+                      gifted me my fist computer. In later years, I have
                       developed a similiar preoccupation with the inner
                       mechinations of business. I believe merging these two
                       powerful industries, in an effective manner, can
-                      positively transform company. This belief is the driving
+                      positively transform a company. This belief is the driving
                       force behind my pursuit of an MBA in addition to my
-                      Bachelor's and Master's in Engineering. Ultimately, I feel
-                      as though my abilities are best applied in some role which
-                      oversees the collaboration between Information Technology
-                      and the company's business maneuvers.
+                      Bachelor's and Master's in Engineering. Ultimately, my
+                      abilities are best applied in some role which oversees the
+                      collaboration between Information Technology and the
+                      company's business maneuvers.
                     </p>
                   </div>
                 </div>
