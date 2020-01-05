@@ -10,17 +10,17 @@ const Experience = ({ companyLogo, company, location, position, date }) => {
       <div className="d-flex flex-column justify-content-center">
         <div className="d-flex flex-row">
           {/* Company Name and Span*/}
-          <h3 className="mr-5">{company}</h3>
+          <h3 className="mr-5 fnt-roboto">{company}</h3>
         </div>
 
         <div className="d-flex flex-row">
           {/* Position */}
-          <h5>{position}</h5>
+          <h5 className="fnt-roboto">{position}</h5>
         </div>
       </div>
 
       <div className="d-flex flex-column ml-auto">
-        <p className="css-ed-date">{date}</p>
+        <p className="css-ed-date fnt-roboto">{date}</p>
       </div>
     </div>
   );
