@@ -90,7 +90,6 @@ const Index = () => {
                       as though my abilities are best applied in some role which
                       oversees the collaboration between Information Technology
                       and the company's business maneuvers.
-                      <b> [NOT DONE]</b>
                     </p>
                   </div>
                 </div>
