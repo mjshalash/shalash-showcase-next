@@ -16,7 +16,7 @@
   "dependencies": {
     "bootstrap": "^4.4.1",
     "isomorphic-unfetch": "^3.0.0",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "next": "^9.1.6",
     "popper.js": "^1.16.0",
     "react": "^16.12.0",
