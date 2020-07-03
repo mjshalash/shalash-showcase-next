@@ -16,8 +16,8 @@
   "dependencies": {
     "bootstrap": "^4.4.1",
     "isomorphic-unfetch": "^3.0.0",
-    "jquery": "^3.4.1",
-    "next": "^9.1.6",
+    "jquery": "^3.5.0",
+    "next": "^9.3.2",
     "popper.js": "^1.16.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
@@ -28,7 +28,7 @@
   "devDependencies": {
     "redux-devtools-extension": "^2.13.8",
     "serve": "^10.1.2",
-    "yarn": "^1.21.1"
+    "yarn": "^1.22.0"
   },
   "engines": {
     "node": "10.x"
