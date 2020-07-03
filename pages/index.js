@@ -125,7 +125,7 @@ const Index = () => {
                         "../static/img/Project-Gallery/Phinance/AdminDashboard.png",
                         "../static/img/Project-Gallery/Phinance/BudgetDashboard.png",
                         "../static/img/Project-Gallery/Phinance/EditTransaction.png",
-                        "../static/img/Project-Gallery/Phinance/MemberDashboard.png"
+                        "../static/img/Project-Gallery/Phinance/MemberDashboard.png",
                       ]}
                       title={"Phinance"}
                       id="PHINANCE"
@@ -147,7 +147,7 @@ const Index = () => {
                       imgSet={[
                         "../static/img/Project-Gallery/Consortium/Home.png",
                         "../static/img/Project-Gallery/Consortium/our-research.png",
-                        "../static/img/Project-Gallery/Consortium/spotlight.png"
+                        "../static/img/Project-Gallery/Consortium/spotlight.png",
                       ]}
                       title={"UofL Social Justice Site"}
                       id="ULSOCIALJUSTICE"
@@ -173,7 +173,7 @@ const Index = () => {
                       imgSet={[
                         "../static/img/Project-Gallery/RenalApp/HomeScreen.png",
                         "../static/img/Project-Gallery/RenalApp/Bookmarks.png",
-                        "../static/img/Project-Gallery/RenalApp/Sidebar.png"
+                        "../static/img/Project-Gallery/RenalApp/Sidebar.png",
                       ]}
                       title={"Adult Renal Patients Mobile App"}
                       id="RENALAPP"
@@ -196,7 +196,7 @@ const Index = () => {
                       }
                       imgSet={[
                         "../static/img/Project-Gallery/FlappyBird/GenOne.png",
-                        "../static/img/Project-Gallery/FlappyBird/GenSeven.png"
+                        "../static/img/Project-Gallery/FlappyBird/GenSeven.png",
                       ]}
                       title={"Flappy Bird - Machine Learning"}
                       id="FLAPPYBIRD"
@@ -233,6 +233,17 @@ const Index = () => {
                     "../../static/img/Education/University_of_Louisville.png"
                   }
                   school={"University of Louisville"}
+                  degree={"Master of Business Administration"}
+                  gpa={"N/A"}
+                  date={"August 2020 - August 2021"}
+                />
+
+                {/* University of Louisville - Master's*/}
+                <Education
+                  schoolLogo={
+                    "../../static/img/Education/University_of_Louisville.png"
+                  }
+                  school={"University of Louisville"}
                   degree={"Master of Engineering"}
                   discipline={"Computer Engineering Computer Science"}
                   gpa={"3.3"}
@@ -250,15 +261,6 @@ const Index = () => {
                   gpa={"3.3"}
                   date={"August 2015 - May 2019"}
                 />
-
-                {/* Martha Layne Collins High School */}
-                {/* <Education
-                schoolLogo={"../../static/img/Education/MLCTitans.jpg"}
-                school={"Martha Layne Collins High School"}
-                degree={"Project Lead the Way Engineering Track"}
-                gpa={"4.0"}
-                date={"August 2011 - May 2015"}
-              /> */}
               </div>
             </section>
           </div>
@@ -275,6 +277,15 @@ const Index = () => {
                   <h2>Experience</h2>
                 </div>
 
+                {/* Stored Value Solutions */}
+                <Experience
+                  companyLogo={"../../static/img/Experience/SVS.png"}
+                  company={"Stored Value Solutions (SVS)"}
+                  location={"Louisville, Kentucky"}
+                  position={"Application Developer"}
+                  date={"May 2020 - Present"}
+                />
+
                 {/* Integrative Design and Development */}
                 <Experience
                   companyLogo={
@@ -283,7 +294,7 @@ const Index = () => {
                   company={"UofL Integrative Development and Design Team"}
                   location={"Louisville, Kentucky"}
                   position={"Software Developer"}
-                  date={"December 2018 - Present"}
+                  date={"December 2018 - April 2020"}
                 />
 
                 {/* Solstice */}
