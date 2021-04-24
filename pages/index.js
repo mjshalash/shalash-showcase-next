@@ -37,7 +37,7 @@ const Index = () => {
                   I have had a passion for programming since my parents bought
                   me my first computer. Technology transforms our environment
                   every single day. Because of this, programming is the language
-                  of the future.
+                  of today, and tommorow.
                   <br />
                   <br />
                   <b>Let me help you write yours.</b>

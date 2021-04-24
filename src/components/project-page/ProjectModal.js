@@ -5,7 +5,7 @@ function ProjectModal({
   title,
   id,
   modalId,
-  carouselId
+  carouselId,
 }) {
   return (
     <div
@@ -46,7 +46,7 @@ function ProjectModal({
               >
                 <div className="carousel-inner">
                   {/* Map set of images to carousel */}
-                  {imgSet.map(function(projImg, index) {
+                  {imgSet.map(function (projImg, index) {
                     if (index === 0) {
                       return (
                         <div key={index} className="carousel-item active">
@@ -62,48 +62,29 @@ function ProjectModal({
                     }
                   })}
                 </div>
-                <a
-                  className="carousel-control-prev"
-                  href={"#carousel" + id}
-                  role="button"
-                  data-slide="prev"
-                >
-                  <span
-                    className="carousel-control-prev-icon"
-                    aria-hidden="true"
-                  />
-                  <span className="sr-only">Previous</span>
-                </a>
-                <a
-                  className="carousel-control-next"
-                  href={"#carousel" + id}
-                  role="button"
-                  data-slide="next"
-                >
-                  <span
-                    className="carousel-control-next-icon"
-                    aria-hidden="true"
-                  />
-                  <span className="sr-only">Next</span>
-                </a>
               </div>
 
               {/* Skill Used */}
-              <div className="d-flex flex-row">
-                <div className="d-flex flex-column">
-                  <h6 className="fnt-roboto">Skills Used</h6>
-                  <ul className="css-skills-used-list fnt-roboto">
+              <div className="d-flex flex-row w-100 css-proj-skills-row css-thin-border">
+                <div className="d-flex flex-column pl-2">
+                  <h6 className="mt-2 fnt-roboto css-proj-sect-header">
+                    Skills Used
+                  </h6>
+                  <ul className="mb-2 css-skills-used-list fnt-roboto">
                     <li>HTML</li>
                     <li>Javascript</li>
                   </ul>
                 </div>
               </div>
 
-              <div className="d-flex flex-row">
+              <div className="d-flex flex-row w-100 css-thin-border">
                 {/* Project Description */}
-                <p className="css-about-first-col mr-3 fnt-roboto">
-                  {children}
-                </p>
+                <div className="d-flex flex-column pl-2">
+                  <h6 className="mt-2 fnt-roboto css-proj-sect-header">
+                    Project Description
+                  </h6>
+                  <p className="css-proj-desc mr-3 fnt-roboto">{children}</p>
+                </div>
               </div>
             </div>
           </div>
