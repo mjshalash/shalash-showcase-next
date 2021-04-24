@@ -226,7 +226,19 @@ const Index = () => {
                   <h2 className="fnt-roboto">Education</h2>
                 </div>
 
-                {/* University of Louisville - Master's*/}
+                {/* University of Louisville - MBA*/}
+                <Education
+                  schoolLogo={
+                    "../../static/img/Education/University_of_Louisville.png"
+                  }
+                  school={"University of Louisville"}
+                  degree={"Master of Business Administration"}
+                  discipline={""}
+                  gpa={"3.9"}
+                  date={"August 2020 - August 2021"}
+                />
+
+                {/* University of Louisville - MEng*/}
                 <Education
                   schoolLogo={
                     "../../static/img/Education/University_of_Louisville.png"
@@ -249,15 +261,6 @@ const Index = () => {
                   gpa={"3.3"}
                   date={"August 2015 - May 2019"}
                 />
-
-                {/* Martha Layne Collins High School */}
-                {/* <Education
-                schoolLogo={"../../static/img/Education/MLCTitans.jpg"}
-                school={"Martha Layne Collins High School"}
-                degree={"Project Lead the Way Engineering Track"}
-                gpa={"4.0"}
-                date={"August 2011 - May 2015"}
-              /> */}
               </div>
             </section>
           </div>
@@ -274,6 +277,15 @@ const Index = () => {
                   <h2>Experience</h2>
                 </div>
 
+                {/* Stored Value Solutions */}
+                <Experience
+                  companyLogo={"../../static/img/Experience/SVS.png"}
+                  company={"Stored Value Solutions"}
+                  location={"Louisville, Kentucky"}
+                  position={"Application Developer I"}
+                  date={"May 2020 - Present"}
+                />
+
                 {/* Integrative Design and Development */}
                 <Experience
                   companyLogo={
@@ -282,7 +294,7 @@ const Index = () => {
                   company={"UofL Integrative Development and Design Team"}
                   location={"Louisville, Kentucky"}
                   position={"Software Developer"}
-                  date={"December 2018 - Present"}
+                  date={"December 2018 - May 2020"}
                 />
 
                 {/* Solstice */}

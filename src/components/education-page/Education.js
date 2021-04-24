@@ -9,13 +9,13 @@ const Education = ({ schoolLogo, school, degree, discipline, gpa, date }) => {
       {/* Information */}
       <div className="d-flex flex-column justify-content-center css-school-info-col">
         <div className="d-flex flex-row">
-          {/* School Name and Date*/}
-          <h3 className="css-school-title fnt-roboto">{school}</h3>
+          {/* Degree */}
+          <h3 className="fnt-roboto">{degree}</h3>
         </div>
 
         <div className="d-flex flex-row">
-          {/* Degree */}
-          <h5 className="fnt-roboto">{degree}</h5>
+          {/* School Name and Date*/}
+          <h5 className="css-school-title fnt-roboto">{school}</h5>
         </div>
 
         {/* Discipline */}
