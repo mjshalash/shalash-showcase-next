@@ -78,10 +78,9 @@ const Index = () => {
                         className="img-fluid img-profile rounded-circle css-about-profile-img mr-2"
                         src="../static/img/Profile.png"
                       />
-                      I am a current Master's in Engineering student at the
-                      University of Louisville. I will graduate this program at
-                      the end of Spring 2020 and then I will pursue a Master's
-                      in Business Administration in the Fall of 2020. Computer
+                      I am currently pursuing my Master's in Business
+                      Administration at the University of Louisville, from which
+                      I also have a Master's Degree in Engineering. Computer
                       Science has been a passion of mine ever since my parents
                       gifted me my fist computer. In later years, I have
                       developed a similiar preoccupation with the inner
@@ -91,8 +90,8 @@ const Index = () => {
                       force behind my pursuit of an MBA in addition to my
                       Bachelor's and Master's in Engineering. Ultimately, my
                       abilities are best applied in some role which oversees the
-                      collaboration between Information Technology and the
-                      company's business maneuvers.
+                      collaboration between Information Technology and an
+                      organizations business maneuvers.
                     </p>
                   </div>
                 </div>
@@ -125,7 +124,7 @@ const Index = () => {
                         "../static/img/Project-Gallery/Phinance/AdminDashboard.png",
                         "../static/img/Project-Gallery/Phinance/BudgetDashboard.png",
                         "../static/img/Project-Gallery/Phinance/EditTransaction.png",
-                        "../static/img/Project-Gallery/Phinance/MemberDashboard.png"
+                        "../static/img/Project-Gallery/Phinance/MemberDashboard.png",
                       ]}
                       title={"Phinance"}
                       id="PHINANCE"
@@ -147,7 +146,7 @@ const Index = () => {
                       imgSet={[
                         "../static/img/Project-Gallery/Consortium/Home.png",
                         "../static/img/Project-Gallery/Consortium/our-research.png",
-                        "../static/img/Project-Gallery/Consortium/spotlight.png"
+                        "../static/img/Project-Gallery/Consortium/spotlight.png",
                       ]}
                       title={"UofL Social Justice Site"}
                       id="ULSOCIALJUSTICE"
@@ -173,7 +172,7 @@ const Index = () => {
                       imgSet={[
                         "../static/img/Project-Gallery/RenalApp/HomeScreen.png",
                         "../static/img/Project-Gallery/RenalApp/Bookmarks.png",
-                        "../static/img/Project-Gallery/RenalApp/Sidebar.png"
+                        "../static/img/Project-Gallery/RenalApp/Sidebar.png",
                       ]}
                       title={"Adult Renal Patients Mobile App"}
                       id="RENALAPP"
@@ -196,7 +195,7 @@ const Index = () => {
                       }
                       imgSet={[
                         "../static/img/Project-Gallery/FlappyBird/GenOne.png",
-                        "../static/img/Project-Gallery/FlappyBird/GenSeven.png"
+                        "../static/img/Project-Gallery/FlappyBird/GenSeven.png",
                       ]}
                       title={"Flappy Bird - Machine Learning"}
                       id="FLAPPYBIRD"
