@@ -244,6 +244,17 @@ const Index = () => {
                     "../../static/img/Education/University_of_Louisville.png"
                   }
                   school={"University of Louisville"}
+                  degree={"Master of Business Administration"}
+                  gpa={"N/A"}
+                  date={"August 2020 - August 2021"}
+                />
+
+                {/* University of Louisville - Master's*/}
+                <Education
+                  schoolLogo={
+                    "../../static/img/Education/University_of_Louisville.png"
+                  }
+                  school={"University of Louisville"}
                   degree={"Master of Engineering"}
                   discipline={"Computer Engineering Computer Science"}
                   gpa={"3.3"}
