@@ -244,6 +244,17 @@ const Index = () => {
                     "../../static/img/Education/University_of_Louisville.png"
                   }
                   school={"University of Louisville"}
+                  degree={"Master of Business Administration"}
+                  gpa={"N/A"}
+                  date={"August 2020 - August 2021"}
+                />
+
+                {/* University of Louisville - Master's*/}
+                <Education
+                  schoolLogo={
+                    "../../static/img/Education/University_of_Louisville.png"
+                  }
+                  school={"University of Louisville"}
                   degree={"Master of Engineering"}
                   discipline={"Computer Engineering Computer Science"}
                   gpa={"3.3"}
@@ -280,9 +291,9 @@ const Index = () => {
                 {/* Stored Value Solutions */}
                 <Experience
                   companyLogo={"../../static/img/Experience/SVS.png"}
-                  company={"Stored Value Solutions"}
+                  company={"Stored Value Solutions (SVS)"}
                   location={"Louisville, Kentucky"}
-                  position={"Application Developer I"}
+                  position={"Application Developer"}
                   date={"May 2020 - Present"}
                 />
 
@@ -294,7 +305,7 @@ const Index = () => {
                   company={"UofL Integrative Development and Design Team"}
                   location={"Louisville, Kentucky"}
                   position={"Software Developer"}
-                  date={"December 2018 - May 2020"}
+                  date={"December 2018 - April 2020"}
                 />
 
                 {/* Solstice */}
