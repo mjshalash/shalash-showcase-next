@@ -2,6 +2,7 @@ import { store } from "../src/store";
 import { Provider } from "react-redux";
 
 import Template from "../src/components/common/Template";
+import SkillsNetwork from "../src/components/charts/SkillsNetwork";
 
 import Project from "../src/components/project-page/Project";
 import Education from "../src/components/education-page/Education";
@@ -327,6 +328,10 @@ const Index = () => {
               id="skills"
             >
               <div className="d-flex flex-column">
+                <div className="d-flex flex-row">
+                  <SkillsNetwork></SkillsNetwork>
+                </div>
+
                 {/* Heading */}
                 <div className="d-flex flex-row ml-2">
                   <h2 className="fnt-roboto">Skills</h2>

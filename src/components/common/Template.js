@@ -108,6 +108,13 @@ const Template = ({ title, className, children }) => (
         type="text/css"
         href="../../static/css/components/Project.css"
       />
+
+      {/* Custom Charts */}
+      <link
+        rel="stylesheet"
+        type="text/css"
+        href="../../static/css/charts.css"
+      />
     </Head>
 
     <div className="d-flex flex-row">
